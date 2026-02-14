@@ -8,6 +8,9 @@ todos:
   - id: update-home-page
     content: 改造首页，移除导航卡片，实现动态俚语展示组件 (SlangShowcase)
     status: done
+  - id: remove-redundant-nav-home
+    content: 移除 Navbar 中的 Home 链接，仅保留 Logo 作为首页入口
+    status: pending
   - id: implement-admin-auth
     content: 集成 NextAuth.js，实现 Admin 登录页、凭证校验及路由保护
     status: pending
