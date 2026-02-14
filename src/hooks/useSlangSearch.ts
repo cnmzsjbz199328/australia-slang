@@ -17,10 +17,7 @@ export function useSlangSearch(initialPage = 1, initialPageSize = 20) {
   const [pageSize] = useState(initialPageSize);
   const [items, setItems] = useState<SlangTermBrief[]>([]);
   const [total, setTotal] = useState(0);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [detail, setDetail] = useState<SlangTermDetail | null>(null);
   const [loading, setLoading] = useState(true);
-  const [detailLoading, setDetailLoading] = useState(false);
 
   const fetchList = useCallback(async () => {
     setLoading(true);
@@ -44,25 +41,6 @@ export function useSlangSearch(initialPage = 1, initialPageSize = 20) {
     fetchList();
   }, [fetchList]);
 
-  useEffect(() => {
-    if (!selectedId) {
-      setDetail(null);
-      return;
-    }
-    let cancelled = false;
-    setDetailLoading(true);
-    fetch(`/api/slang/${selectedId}`)
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data) => {
-        if (!cancelled && data) setDetail(data);
-      })
-      .finally(() => {
-        if (!cancelled) setDetailLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [selectedId]);
 
   return {
     query,
@@ -72,11 +50,7 @@ export function useSlangSearch(initialPage = 1, initialPageSize = 20) {
     pageSize,
     items,
     total,
-    selectedId,
-    setSelectedId,
-    detail,
     loading,
-    detailLoading,
     refetch: fetchList,
   };
 }

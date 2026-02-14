@@ -1,36 +1,32 @@
 import Link from "next/link";
+import SlangShowcase from "@/components/home/SlangShowcase";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col gap-8 py-8">
-      <section className="rounded-lg border border-zinc-200 bg-white p-8 dark:border-zinc-700 dark:bg-zinc-900">
-        <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
-          Australia Slang
+      <section className="text-center">
+        <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-5xl">
+          Learn Australian Slang
         </h1>
-        <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          Browse Australian slang terms and test yourself with a short quiz.
+        <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
+          From "G'day" to "Arvo", master the unique vocabulary of Down Under.
         </p>
       </section>
-      <section className="grid gap-4 sm:grid-cols-2">
+
+      <SlangShowcase />
+
+      <section className="mt-8 flex justify-center gap-4">
         <Link
           href="/slang"
-          className="rounded-lg border border-zinc-200 bg-white p-6 transition-colors hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:hover:bg-zinc-800"
+          className="rounded-full border border-zinc-300 bg-white px-6 py-2 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700/50"
         >
-          <h2 className="font-semibold text-zinc-900 dark:text-zinc-100">
-            Slang Dictionary
-          </h2>
-          <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            Search and browse Australian slang terms with meanings and examples.
-          </p>
+          View All Slang
         </Link>
         <Link
           href="/quiz"
-          className="rounded-lg border border-zinc-200 bg-white p-6 transition-colors hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:hover:bg-zinc-800"
+          className="rounded-full bg-zinc-900 px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
         >
-          <h2 className="font-semibold text-zinc-900 dark:text-zinc-100">Quiz</h2>
-          <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            Take a short quiz to test your knowledge of Australian slang.
-          </p>
+          Take a Quiz
         </Link>
       </section>
     </div>

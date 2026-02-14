@@ -11,19 +11,16 @@ interface SlangCardProps {
   onSelect: () => void;
 }
 
-export default function SlangCard({ term, selected, onSelect }: SlangCardProps) {
+export default function SlangCard({ term }: { term: SlangTermBrief }) {
   return (
-    <button
-      type="button"
-      onClick={onSelect}
-      className={`w-full rounded-lg border p-4 text-left transition-colors ${
-        selected
-          ? "border-zinc-900 bg-zinc-100 dark:border-zinc-100 dark:bg-zinc-800"
-          : "border-zinc-200 hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-800/50"
-      }`}
-    >
+    <div className="w-full rounded-lg border border-zinc-200 bg-white p-4 text-left transition-colors dark:border-zinc-700 dark:bg-zinc-800">
       <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">{term.phrase}</h3>
-      <p className="mt-1 line-clamp-2 text-sm text-zinc-600 dark:text-zinc-400">{term.meaning}</p>
-    </button>
+      <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{term.meaning}</p>
+      {term.example && (
+        <p className="mt-2 text-sm italic text-zinc-500 dark:text-zinc-500">
+          Example: {term.example}
+        </p>
+      )}
+    </div>
   );
 }

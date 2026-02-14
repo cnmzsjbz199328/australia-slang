@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dictionary Management Admin</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<!-- iOS Status Bar Placeholder -->
+<div class="h-12 w-full flex items-center justify-between px-8 pt-4">
+<span class="text-sm font-semibold">9:41</span>
+<div class="flex items-center gap-1.5">
+<span class="material-icons text-xs">signal_cellular_alt</span>
+<span class="material-icons text-xs">wifi</span>
+<span class="material-icons text-xs rotate-90">battery_full</span>
+</div>
+</div>
+<!-- Main Container -->
+<main class="max-w-md mx-auto px-4 pb-24">
+<!-- Header -->
+<header class="py-6">
+<h1 class="text-2xl font-bold">Admin Console</h1>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Managing Australian Slang</p>
+</header>
+<!-- Dashboard Summary -->
+<section class="grid grid-cols-2 gap-4 mb-8">
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-200/50 dark:border-slate-700/50">
+<span class="text-primary material-icons mb-2">library_books</span>
+<div class="text-2xl font-bold">1,248</div>
+<div class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Total Entries</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-200/50 dark:border-slate-700/50">
+<span class="text-emerald-500 material-icons mb-2">trending_up</span>
+<div class="text-2xl font-bold">42</div>
+<div class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Added This Week</div>
+</div>
+</section>
+<!-- Search Bar -->
+<div class="relative mb-6">
+<span class="material-icons absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="w-full bg-white dark:bg-slate-800 border-none rounded-lg py-3 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/50 shadow-sm" placeholder="Search slang or translation..." type="text"/>
+</div>
+<!-- Slang List -->
+<div class="space-y-3">
+<div class="flex items-center justify-between px-1">
+<h2 class="text-sm font-bold uppercase tracking-widest text-slate-400">All Slang Entries</h2>
+<button class="text-primary text-xs font-semibold">View All</button>
+</div>
+<!-- List Item 1 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-lg flex items-center justify-between shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="flex-1">
+<h3 class="font-bold text-lg">Arvo</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">"Afternoon"</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-primary bg-primary/10 rounded-full">
+<span class="material-icons text-xl leading-none">edit</span>
+</button>
+<button class="p-2 text-rose-500 bg-rose-500/10 rounded-full">
+<span class="material-icons text-xl leading-none">delete_outline</span>
+</button>
+</div>
+</div>
+<!-- List Item 2 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-lg flex items-center justify-between shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="flex-1">
+<h3 class="font-bold text-lg">Barbie</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">"Barbecue"</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-primary bg-primary/10 rounded-full">
+<span class="material-icons text-xl leading-none">edit</span>
+</button>
+<button class="p-2 text-rose-500 bg-rose-500/10 rounded-full">
+<span class="material-icons text-xl leading-none">delete_outline</span>
+</button>
+</div>
+</div>
+<!-- List Item 3 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-lg flex items-center justify-between shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="flex-1">
+<h3 class="font-bold text-lg">Chockers</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">"Very full / Packed"</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-primary bg-primary/10 rounded-full">
+<span class="material-icons text-xl leading-none">edit</span>
+</button>
+<button class="p-2 text-rose-500 bg-rose-500/10 rounded-full">
+<span class="material-icons text-xl leading-none">delete_outline</span>
+</button>
+</div>
+</div>
+<!-- List Item 4 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-lg flex items-center justify-between shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="flex-1">
+<h3 class="font-bold text-lg">Deadset</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">"True / Serious"</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-primary bg-primary/10 rounded-full">
+<span class="material-icons text-xl leading-none">edit</span>
+</button>
+<button class="p-2 text-rose-500 bg-rose-500/10 rounded-full">
+<span class="material-icons text-xl leading-none">delete_outline</span>
+</button>
+</div>
+</div>
+<!-- List Item 5 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-lg flex items-center justify-between shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="flex-1">
+<h3 class="font-bold text-lg">Fair Dinkum</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">"Honest / Genuine"</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-primary bg-primary/10 rounded-full">
+<span class="material-icons text-xl leading-none">edit</span>
+</button>
+<button class="p-2 text-rose-500 bg-rose-500/10 rounded-full">
+<span class="material-icons text-xl leading-none">delete_outline</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-8 right-6 w-14 h-14 bg-primary text-white rounded-full shadow-lg shadow-primary/40 flex items-center justify-center hover:scale-105 transition-transform active:scale-95">
+<span class="material-icons text-3xl">add</span>
+</button>
+<!-- Add/Edit Modal (Simulated overlay for demo purposes) -->
+<!-- Note: Usually hidden, shown here as part of the visual layout as requested -->
+<div class="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-end justify-center z-50">
+<div class="bg-background-light dark:bg-background-dark w-full max-w-md rounded-t-xl p-6 shadow-2xl border-t border-slate-200 dark:border-slate-700">
+<!-- Modal Handle -->
+<div class="w-12 h-1.5 bg-slate-300 dark:bg-slate-600 rounded-full mx-auto mb-6"></div>
+<div class="flex items-center justify-between mb-6">
+<h2 class="text-xl font-bold">Add New Slang</h2>
+<button class="text-slate-400 hover:text-slate-600">
+<span class="material-icons">close</span>
+</button>
+</div>
+<form class="space-y-4">
+<div>
+<label class="block text-xs font-bold uppercase text-slate-500 mb-1 ml-1">Slang Word (AU)</label>
+<input class="w-full bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-primary" placeholder="e.g. Brekkie" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-500 mb-1 ml-1">American Translation (US)</label>
+<input class="w-full bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-primary" placeholder="e.g. Breakfast" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-500 mb-1 ml-1">Example Sentence</label>
+<textarea class="w-full bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-primary" placeholder="How it's used in a sentence..." rows="3"></textarea>
+</div>
+<div class="pt-4 flex gap-3">
+<button class="flex-1 py-3 bg-slate-200 dark:bg-slate-700 font-bold rounded-lg text-slate-700 dark:text-slate-200" type="button">
+                        Cancel
+                    </button>
+<button class="flex-[2] py-3 bg-primary text-white font-bold rounded-lg shadow-md shadow-primary/20" type="submit">
+                        Save Entry
+                    </button>
+</div>
+</form>
+<!-- Safe Area Spacer for iOS -->
+<div class="h-8"></div>
+</div>
+</div>
+<!-- Background Decoration -->
+<div class="fixed top-0 left-0 w-full h-40 bg-gradient-to-b from-primary/5 to-transparent -z-10"></div>
+</body></html>

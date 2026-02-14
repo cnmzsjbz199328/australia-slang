@@ -2,12 +2,10 @@ import SlangCard, { type SlangTermBrief } from "./SlangCard";
 
 interface SlangListProps {
   items: SlangTermBrief[];
-  selectedId: string | null;
-  onSelect: (id: string) => void;
   loading?: boolean;
 }
 
-export default function SlangList({ items, selectedId, onSelect, loading }: SlangListProps) {
+export default function SlangList({ items, loading }: SlangListProps) {
   if (loading) {
     return (
       <div className="space-y-2">
@@ -28,11 +26,7 @@ export default function SlangList({ items, selectedId, onSelect, loading }: Slan
     <ul className="space-y-2">
       {items.map((term) => (
         <li key={term.id}>
-          <SlangCard
-            term={term}
-            selected={selectedId === term.id}
-            onSelect={() => onSelect(term.id)}
-          />
+          <SlangCard term={term} />
         </li>
       ))}
     </ul>
