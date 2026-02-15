@@ -1,0 +1,1106 @@
+[
+    {
+        "phrase": "Knackered",
+        "meaning": "Exhausted; very tired",
+        "example": "I'm absolutely knackered after that long shift.",
+        "quiz": {
+            "question": "What does 'knackered' mean?",
+            "explanation": "Knackered means exhausted or very tired.",
+            "choices": [
+                {
+                    "text": "Energetic",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Exhausted",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Happy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Crook",
+        "meaning": "Sick; unwell",
+        "example": "I'm feeling a bit crook today, might stay home.",
+        "quiz": {
+            "question": "What does 'crook' mean in Australian slang?",
+            "explanation": "Crook means sick or unwell (not a criminal).",
+            "choices": [
+                {
+                    "text": "A criminal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sick; unwell",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cranky",
+        "meaning": "Irritable; in a bad mood",
+        "example": "She's really cranky because she didn't get enough sleep.",
+        "quiz": {
+            "question": "What does 'cranky' mean?",
+            "explanation": "Cranky means irritable or in a bad mood.",
+            "choices": [
+                {
+                    "text": "Happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Irritable; bad mood",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Energetic",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chuffed",
+        "meaning": "Very pleased; proud",
+        "example": "I'm absolutely chuffed with my exam results!",
+        "quiz": {
+            "question": "If someone is 'chuffed', how do they feel?",
+            "explanation": "Chuffed means very pleased or proud.",
+            "choices": [
+                {
+                    "text": "Disappointed",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very pleased; proud",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tired",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Spewing",
+        "meaning": "Very disappointed or angry",
+        "example": "I'm absolutely spewing that I missed the concert!",
+        "quiz": {
+            "question": "What does 'spewing' mean?",
+            "explanation": "Spewing means very disappointed or upset (not literally vomiting in this context).",
+            "choices": [
+                {
+                    "text": "Happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very disappointed",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sick",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rapt",
+        "meaning": "Delighted; very happy",
+        "example": "I'm rapt that you could make it to the party!",
+        "quiz": {
+            "question": "What does 'rapt' mean?",
+            "explanation": "Rapt means delighted or very happy.",
+            "choices": [
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Delighted; very happy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Confused",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Narky",
+        "meaning": "Irritable; bad-tempered",
+        "example": "He's a bit narky today, best to leave him alone.",
+        "quiz": {
+            "question": "What does 'narky' mean?",
+            "explanation": "Narky means irritable or bad-tempered.",
+            "choices": [
+                {
+                    "text": "Cheerful",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Irritable; bad-tempered",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sleepy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Gutted",
+        "meaning": "Extremely disappointed",
+        "example": "I'm gutted that the team lost the finals.",
+        "quiz": {
+            "question": "If someone is 'gutted', how do they feel?",
+            "explanation": "Gutted means extremely disappointed or devastated.",
+            "choices": [
+                {
+                    "text": "Excited",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely disappointed",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Hungry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Filthy",
+        "meaning": "Very angry",
+        "example": "He was filthy when he found out about the cancellation.",
+        "quiz": {
+            "question": "What does 'filthy' mean when describing someone's mood?",
+            "explanation": "Filthy means very angry or furious.",
+            "choices": [
+                {
+                    "text": "Very dirty",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very angry",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Very happy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shithouse",
+        "meaning": "Terrible; very bad quality",
+        "example": "The weather today is absolutely shithouse.",
+        "quiz": {
+            "question": "What does 'shithouse' mean?",
+            "explanation": "Shithouse means terrible or of very bad quality.",
+            "choices": [
+                {
+                    "text": "Excellent",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Terrible; very bad",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A building",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stuffed",
+        "meaning": "Exhausted; broken",
+        "example": "I'm completely stuffed after that workout. / My car's stuffed.",
+        "quiz": {
+            "question": "What does 'stuffed' mean?",
+            "explanation": "Stuffed means exhausted or broken/ruined.",
+            "choices": [
+                {
+                    "text": "Full of food only",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Exhausted; broken",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Energetic",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Buggered",
+        "meaning": "Exhausted; broken",
+        "example": "I'm absolutely buggered. / The TV is buggered.",
+        "quiz": {
+            "question": "What does 'buggered' mean?",
+            "explanation": "Buggered means exhausted or broken.",
+            "choices": [
+                {
+                    "text": "Brand new",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Exhausted; broken",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Working perfectly",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cooked",
+        "meaning": "Exhausted; intoxicated; broken",
+        "example": "I'm absolutely cooked after that all-nighter.",
+        "quiz": {
+            "question": "What does 'cooked' mean in slang?",
+            "explanation": "Cooked can mean exhausted, very intoxicated, or broken.",
+            "choices": [
+                {
+                    "text": "Well-rested",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Exhausted; intoxicated",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Prepared food",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Fried",
+        "meaning": "Mentally exhausted; brain-dead",
+        "example": "My brain is fried after studying all day.",
+        "quiz": {
+            "question": "What does 'fried' mean?",
+            "explanation": "Fried means mentally exhausted or unable to think clearly.",
+            "choices": [
+                {
+                    "text": "Alert and focused",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Mentally exhausted",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cooked food",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Zonked",
+        "meaning": "Extremely tired; passed out",
+        "example": "He was zonked on the couch.",
+        "quiz": {
+            "question": "What does 'zonked' mean?",
+            "explanation": "Zonked means extremely tired or passed out from exhaustion.",
+            "choices": [
+                {
+                    "text": "Wide awake",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely tired",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Excited",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shattered",
+        "meaning": "Completely exhausted",
+        "example": "I'm shattered after working double shifts.",
+        "quiz": {
+            "question": "What does 'shattered' mean?",
+            "explanation": "Shattered means completely exhausted.",
+            "choices": [
+                {
+                    "text": "Broken glass",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Completely exhausted",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Energetic",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Keen",
+        "meaning": "Eager; enthusiastic",
+        "example": "I'm really keen to try that new restaurant.",
+        "quiz": {
+            "question": "What does 'keen' mean?",
+            "explanation": "Keen means eager or enthusiastic about something.",
+            "choices": [
+                {
+                    "text": "Uninterested",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Eager; enthusiastic",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tired",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Keen as mustard",
+        "meaning": "Very eager; extremely enthusiastic",
+        "example": "He's keen as mustard to start his new job.",
+        "quiz": {
+            "question": "If someone is 'keen as mustard', how do they feel?",
+            "explanation": "Keen as mustard means very eager or extremely enthusiastic.",
+            "choices": [
+                {
+                    "text": "Not interested",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very eager",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Not fussed",
+        "meaning": "Don't care; indifferent",
+        "example": "I'm not fussed about what we have for dinner.",
+        "quiz": {
+            "question": "What does 'not fussed' mean?",
+            "explanation": "Not fussed means you don't care or are indifferent about something.",
+            "choices": [
+                {
+                    "text": "Very concerned",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Don't care; indifferent",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Very angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Can't be bothered",
+        "meaning": "Don't want to make the effort",
+        "example": "I can't be bothered cooking tonight, let's get takeaway.",
+        "quiz": {
+            "question": "What does 'can't be bothered' mean?",
+            "explanation": "Can't be bothered means you don't want to make the effort to do something.",
+            "choices": [
+                {
+                    "text": "Very motivated",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Don't want to make effort",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Can't be found",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Can't be arsed",
+        "meaning": "Can't be bothered; too lazy",
+        "example": "I can't be arsed going out tonight.",
+        "quiz": {
+            "question": "What does 'can't be arsed' mean?",
+            "explanation": "Can't be arsed means can't be bothered or too lazy to do something.",
+            "choices": [
+                {
+                    "text": "Very eager",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Can't be bothered",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Can't stand up",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bored shitless",
+        "meaning": "Extremely bored",
+        "example": "I'm bored shitless at this meeting.",
+        "quiz": {
+            "question": "What does 'bored shitless' mean?",
+            "explanation": "Bored shitless means extremely bored.",
+            "choices": [
+                {
+                    "text": "Very entertained",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely bored",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Excited",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Scared shitless",
+        "meaning": "Extremely scared",
+        "example": "I was scared shitless watching that horror movie.",
+        "quiz": {
+            "question": "What does 'scared shitless' mean?",
+            "explanation": "Scared shitless means extremely scared or terrified.",
+            "choices": [
+                {
+                    "text": "Very brave",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely scared",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Calm",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shitting bricks",
+        "meaning": "Very nervous or scared",
+        "example": "I was shitting bricks before my job interview.",
+        "quiz": {
+            "question": "What does 'shitting bricks' mean?",
+            "explanation": "Shitting bricks means being very nervous or scared.",
+            "choices": [
+                {
+                    "text": "Very confident",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very nervous or scared",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Building something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stroppy",
+        "meaning": "Bad-tempered; argumentative",
+        "example": "Don't get stroppy with me!",
+        "quiz": {
+            "question": "What does 'stroppy' mean?",
+            "explanation": "Stroppy means bad-tempered or argumentative.",
+            "choices": [
+                {
+                    "text": "Very pleasant",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Bad-tempered; argumentative",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sleepy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Grumpy",
+        "meaning": "Bad-tempered; irritable",
+        "example": "He's always grumpy in the morning.",
+        "quiz": {
+            "question": "What does 'grumpy' mean?",
+            "explanation": "Grumpy means bad-tempered or irritable.",
+            "choices": [
+                {
+                    "text": "Very cheerful",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Bad-tempered; irritable",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Energetic",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cheeky",
+        "meaning": "Playfully impudent; slightly rude but funny",
+        "example": "That was a cheeky comment! / A cheeky beer after work.",
+        "quiz": {
+            "question": "What does 'cheeky' mean?",
+            "explanation": "Cheeky means playfully impudent or slightly rude in a humorous way.",
+            "choices": [
+                {
+                    "text": "Very polite",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Playfully impudent",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cocky",
+        "meaning": "Overly confident; arrogant",
+        "example": "He's getting a bit cocky after winning one game.",
+        "quiz": {
+            "question": "What does 'cocky' mean?",
+            "explanation": "Cocky means overly confident or arrogant.",
+            "choices": [
+                {
+                    "text": "Very humble",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Overly confident; arrogant",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A rooster",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Salty",
+        "meaning": "Upset; bitter about something",
+        "example": "He's still salty about losing the bet.",
+        "quiz": {
+            "question": "What does 'salty' mean in slang?",
+            "explanation": "Salty means upset or bitter about something.",
+            "choices": [
+                {
+                    "text": "Very sweet",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Upset; bitter",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tastes like salt",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rattled",
+        "meaning": "Nervous; shaken up",
+        "example": "I was pretty rattled after that near-miss accident.",
+        "quiz": {
+            "question": "What does 'rattled' mean?",
+            "explanation": "Rattled means nervous or shaken up by something.",
+            "choices": [
+                {
+                    "text": "Very calm",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nervous; shaken up",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Making noise",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Psyched",
+        "meaning": "Excited; enthusiastic",
+        "example": "I'm so psyched for the concert tonight!",
+        "quiz": {
+            "question": "What does 'psyched' mean?",
+            "explanation": "Psyched means excited or enthusiastic about something.",
+            "choices": [
+                {
+                    "text": "Bored",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Excited; enthusiastic",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Crazy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pumped",
+        "meaning": "Excited; energized",
+        "example": "I'm pumped for the big game!",
+        "quiz": {
+            "question": "What does 'pumped' mean?",
+            "explanation": "Pumped means excited or energized about something.",
+            "choices": [
+                {
+                    "text": "Tired",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Excited; energized",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Inflated",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Amped",
+        "meaning": "Excited; hyped up",
+        "example": "Everyone's amped for the music festival.",
+        "quiz": {
+            "question": "What does 'amped' mean?",
+            "explanation": "Amped means excited or hyped up.",
+            "choices": [
+                {
+                    "text": "Relaxed",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Excited; hyped up",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Amplified",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Frothing",
+        "meaning": "Extremely excited; eager",
+        "example": "I'm absolutely frothing for the new season!",
+        "quiz": {
+            "question": "If someone is 'frothing' about something, how do they feel?",
+            "explanation": "Frothing means extremely excited or eager about something.",
+            "choices": [
+                {
+                    "text": "Uninterested",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely excited",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Buzzing",
+        "meaning": "Excited; slightly drunk",
+        "example": "I'm buzzing after that win! / I'm feeling a bit buzzing.",
+        "quiz": {
+            "question": "What does 'buzzing' mean?",
+            "explanation": "Buzzing can mean excited or slightly intoxicated.",
+            "choices": [
+                {
+                    "text": "Bored",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Excited; slightly drunk",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Making a sound",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cut",
+        "meaning": "Upset; hurt emotionally",
+        "example": "I was pretty cut when they didn't invite me.",
+        "quiz": {
+            "question": "What does 'cut' mean emotionally?",
+            "explanation": "Cut means upset or hurt emotionally.",
+            "choices": [
+                {
+                    "text": "Very happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Upset; hurt emotionally",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Physically injured",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shattered",
+        "meaning": "Emotionally devastated (besides tired)",
+        "example": "I was shattered when I heard the news.",
+        "quiz": {
+            "question": "Besides tired, what else can 'shattered' mean?",
+            "explanation": "Shattered can also mean emotionally devastated.",
+            "choices": [
+                {
+                    "text": "Very happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Emotionally devastated",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Confused",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Over it",
+        "meaning": "Fed up; tired of something",
+        "example": "I'm so over this cold weather!",
+        "quiz": {
+            "question": "What does 'over it' mean?",
+            "explanation": "Over it means fed up or tired of something.",
+            "choices": [
+                {
+                    "text": "Just starting",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Fed up; tired of it",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Above something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Done",
+        "meaning": "Finished; fed up; exhausted",
+        "example": "I'm done with this job. / I'm absolutely done for the day.",
+        "quiz": {
+            "question": "What does 'done' mean in slang?",
+            "explanation": "Done can mean finished, fed up, or completely exhausted.",
+            "choices": [
+                {
+                    "text": "Just starting",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Finished; fed up; exhausted",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cooked",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Copping it",
+        "meaning": "Receiving criticism or punishment",
+        "example": "He's really copping it from the boss today.",
+        "quiz": {
+            "question": "What does 'copping it' mean?",
+            "explanation": "Copping it means receiving criticism, blame, or punishment.",
+            "choices": [
+                {
+                    "text": "Getting praise",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Receiving criticism",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Buying something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Having a whinge",
+        "meaning": "Complaining; moaning",
+        "example": "He's always having a whinge about something.",
+        "quiz": {
+            "question": "What does 'having a whinge' mean?",
+            "explanation": "Having a whinge means complaining or moaning about something.",
+            "choices": [
+                {
+                    "text": "Being grateful",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Complaining; moaning",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Celebrating",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sooky",
+        "meaning": "Overly sensitive; prone to crying",
+        "example": "Don't be so sooky, it's just a joke!",
+        "quiz": {
+            "question": "What does 'sooky' mean?",
+            "explanation": "Sooky means overly sensitive or prone to crying/complaining.",
+            "choices": [
+                {
+                    "text": "Very tough",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Overly sensitive",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Funny",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Precious",
+        "meaning": "Overly sensitive; easily offended",
+        "example": "He's being a bit precious about the criticism.",
+        "quiz": {
+            "question": "What does 'precious' mean when describing someone?",
+            "explanation": "Precious means overly sensitive or easily offended.",
+            "choices": [
+                {
+                    "text": "Valuable",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Overly sensitive",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Brave",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Soft",
+        "meaning": "Weak; not tough",
+        "example": "You're going soft, mate!",
+        "quiz": {
+            "question": "What does 'soft' mean when describing someone?",
+            "explanation": "Soft means weak or not tough (often used jokingly).",
+            "choices": [
+                {
+                    "text": "Very hard",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Weak; not tough",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Comfortable",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Hardened",
+        "meaning": "Tough; experienced",
+        "example": "He's a hardened veteran of the industry.",
+        "quiz": {
+            "question": "What does 'hardened' mean?",
+            "explanation": "Hardened means tough, experienced, or not easily affected.",
+            "choices": [
+                {
+                    "text": "Very soft",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Tough; experienced",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Solidified",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Gutless",
+        "meaning": "Cowardly; lacking courage",
+        "example": "That was a gutless decision.",
+        "quiz": {
+            "question": "What does 'gutless' mean?",
+            "explanation": "Gutless means cowardly or lacking courage.",
+            "choices": [
+                {
+                    "text": "Very brave",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Cowardly; lacking courage",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Hungry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Game",
+        "meaning": "Brave; willing to try",
+        "example": "Are you game to jump off the bridge into the water?",
+        "quiz": {
+            "question": "What does 'game' mean?",
+            "explanation": "Game means brave or willing to try something (often risky).",
+            "choices": [
+                {
+                    "text": "A sport",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Brave; willing to try",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cowardly",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Flat chat",
+        "meaning": "Very busy; at maximum speed",
+        "example": "I've been flat chat all week.",
+        "quiz": {
+            "question": "What does 'flat chat' mean?",
+            "explanation": "Flat chat means very busy or working at maximum capacity.",
+            "choices": [
+                {
+                    "text": "Having a boring conversation",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very busy; maximum speed",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Relaxing",
+                    "isCorrect": false
+                }
+            ]
+        }
+    }
+]

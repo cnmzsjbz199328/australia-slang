@@ -41,6 +41,14 @@ export function useSlangSearch(initialPage = 1, initialPageSize = 20) {
     fetchList();
   }, [fetchList]);
 
+  // Reset to page 1 when search query changes
+  useEffect(() => {
+    if (query.trim()) {
+      setPage(1);
+    }
+  }, [query]);
+
+
 
   return {
     query,

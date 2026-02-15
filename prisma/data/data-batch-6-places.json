@@ -1,0 +1,1129 @@
+[
+    {
+        "phrase": "Outback",
+        "meaning": "Remote interior regions of Australia",
+        "example": "We're going on a road trip through the outback.",
+        "quiz": {
+            "question": "What is the 'outback'?",
+            "explanation": "The outback is the remote, sparsely populated interior of Australia.",
+            "choices": [
+                {
+                    "text": "The beach",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Remote interior of Australia",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A city",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bush",
+        "meaning": "Rural areas; countryside",
+        "example": "He grew up in the bush, miles from anywhere.",
+        "quiz": {
+            "question": "What does 'the bush' refer to?",
+            "explanation": "The bush refers to rural areas or countryside, especially with native vegetation.",
+            "choices": [
+                {
+                    "text": "A plant",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Rural areas; countryside",
+                    "isCorrect": true
+                },
+                {
+                    "text": "The city",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Woop Woop",
+        "meaning": "Middle of nowhere; very remote place",
+        "example": "They live out in Woop Woop somewhere.",
+        "quiz": {
+            "question": "What is 'Woop Woop'?",
+            "explanation": "Woop Woop is a fictional place name meaning the middle of nowhere or a very remote location.",
+            "choices": [
+                {
+                    "text": "A real town",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Middle of nowhere",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A city center",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Boondocks",
+        "meaning": "Remote rural area",
+        "example": "They moved to the boondocks for a quieter life.",
+        "quiz": {
+            "question": "What are 'the boondocks'?",
+            "explanation": "The boondocks are remote rural areas, far from cities.",
+            "choices": [
+                {
+                    "text": "City suburbs",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Remote rural area",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A shopping district",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Never-never",
+        "meaning": "Remote outback regions",
+        "example": "He's working on a cattle station in the never-never.",
+        "quiz": {
+            "question": "What is 'the never-never'?",
+            "explanation": "The never-never refers to very remote outback regions.",
+            "choices": [
+                {
+                    "text": "A fantasy land",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Remote outback regions",
+                    "isCorrect": true
+                },
+                {
+                    "text": "The coast",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Back of beyond",
+        "meaning": "Very remote location",
+        "example": "The property is in the back of beyond.",
+        "quiz": {
+            "question": "What does 'back of beyond' mean?",
+            "explanation": "Back of beyond means a very remote, isolated location.",
+            "choices": [
+                {
+                    "text": "City center",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very remote location",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Behind something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Up north",
+        "meaning": "Northern parts of Australia",
+        "example": "We're heading up north for the dry season.",
+        "quiz": {
+            "question": "What does 'up north' refer to?",
+            "explanation": "Up north refers to the northern parts of Australia, especially tropical areas.",
+            "choices": [
+                {
+                    "text": "South Australia",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Northern Australia",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Any northern direction",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Down south",
+        "meaning": "Southern parts of Australia",
+        "example": "The weather's getting cold down south.",
+        "quiz": {
+            "question": "What does 'down south' refer to?",
+            "explanation": "Down south refers to the southern parts of Australia.",
+            "choices": [
+                {
+                    "text": "Northern Australia",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Southern Australia",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Underground",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "The big smoke",
+        "meaning": "The city (especially Sydney or Melbourne)",
+        "example": "I'm heading to the big smoke for work.",
+        "quiz": {
+            "question": "What is 'the big smoke'?",
+            "explanation": "The big smoke refers to a big city, especially Sydney or Melbourne.",
+            "choices": [
+                {
+                    "text": "A bushfire",
+                    "isCorrect": false
+                },
+                {
+                    "text": "The city",
+                    "isCorrect": true
+                },
+                {
+                    "text": "The countryside",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Station",
+        "meaning": "Large farm or ranch (cattle/sheep)",
+        "example": "He works on a cattle station in Queensland.",
+        "quiz": {
+            "question": "What is a 'station' in Australian context?",
+            "explanation": "A station is a large farm or ranch, typically for cattle or sheep.",
+            "choices": [
+                {
+                    "text": "A train station",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A large farm/ranch",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A gas station",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Paddock",
+        "meaning": "Field; pasture",
+        "example": "The horses are in the back paddock.",
+        "quiz": {
+            "question": "What is a 'paddock'?",
+            "explanation": "A paddock is a field or pasture for animals.",
+            "choices": [
+                {
+                    "text": "A boat",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A field; pasture",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A building",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Creek",
+        "meaning": "Stream or small river",
+        "example": "We went swimming in the creek.",
+        "quiz": {
+            "question": "What is a 'creek' in Australian English?",
+            "explanation": "A creek is a stream or small river.",
+            "choices": [
+                {
+                    "text": "A squeaking sound",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A stream or small river",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A crack",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Billabong",
+        "meaning": "Oxbow lake; waterhole",
+        "example": "We camped by the billabong.",
+        "quiz": {
+            "question": "What is a 'billabong'?",
+            "explanation": "A billabong is an oxbow lake or waterhole, often formed from a river bend.",
+            "choices": [
+                {
+                    "text": "A type of tree",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An oxbow lake; waterhole",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A clothing brand only",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Waterhole",
+        "meaning": "Natural pool or water source",
+        "example": "The animals gather at the waterhole.",
+        "quiz": {
+            "question": "What is a 'waterhole'?",
+            "explanation": "A waterhole is a natural pool or water source in the outback.",
+            "choices": [
+                {
+                    "text": "A hole in a bucket",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A natural pool or water source",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A swimming pool",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Swag",
+        "meaning": "Bedroll; camping mattress",
+        "example": "Just throw your swag down anywhere.",
+        "quiz": {
+            "question": "What is a 'swag' in camping context?",
+            "explanation": "A swag is a bedroll or portable camping mattress/sleeping bag combo.",
+            "choices": [
+                {
+                    "text": "Stolen goods",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A bedroll; camping mattress",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cool style",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Boardies",
+        "meaning": "Board shorts; swim shorts",
+        "example": "Grab your boardies, we're going to the beach!",
+        "quiz": {
+            "question": "What are 'boardies'?",
+            "explanation": "Boardies are board shorts or swim shorts.",
+            "choices": [
+                {
+                    "text": "Surfboards",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Board shorts; swim shorts",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Skateboards",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Togs",
+        "meaning": "Swimming costume; swimsuit",
+        "example": "Don't forget your togs!",
+        "quiz": {
+            "question": "What are 'togs'?",
+            "explanation": "Togs are swimming costumes or swimsuits.",
+            "choices": [
+                {
+                    "text": "Towels",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Swimming costume",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Shoes",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cossie",
+        "meaning": "Swimming costume (especially in WA)",
+        "example": "Put your cossie on, we're going to the pool.",
+        "quiz": {
+            "question": "What is a 'cossie'?",
+            "explanation": "Cossie is short for swimming costume (swimsuit).",
+            "choices": [
+                {
+                    "text": "A costume party outfit",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A swimming costume",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A jacket",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bathers",
+        "meaning": "Swimming costume (especially in Victoria)",
+        "example": "Got your bathers? We're going to the beach.",
+        "quiz": {
+            "question": "What are 'bathers'?",
+            "explanation": "Bathers are swimming costumes or swimsuits (Victorian term).",
+            "choices": [
+                {
+                    "text": "People who bath",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Swimming costume",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Bathtubs",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stubby holder",
+        "meaning": "Insulated can/bottle holder",
+        "example": "Use a stubby holder to keep your beer cold.",
+        "quiz": {
+            "question": "What is a 'stubby holder'?",
+            "explanation": "A stubby holder is an insulated sleeve to keep cans or bottles cold.",
+            "choices": [
+                {
+                    "text": "A short person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An insulated can holder",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A bottle opener",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tinny",
+        "meaning": "Small aluminum boat (besides beer can)",
+        "example": "We took the tinny out fishing.",
+        "quiz": {
+            "question": "Besides a beer can, what else is a 'tinny'?",
+            "explanation": "A tinny is also a small aluminum boat.",
+            "choices": [
+                {
+                    "text": "A big yacht",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A small aluminum boat",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A fishing rod",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Surfing",
+        "meaning": "Riding waves on a surfboard",
+        "example": "Going surfing at Bondi this weekend.",
+        "quiz": {
+            "question": "What is 'surfing'?",
+            "explanation": "Surfing is riding ocean waves on a surfboard.",
+            "choices": [
+                {
+                    "text": "Internet browsing only",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Riding waves on a surfboard",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Swimming",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Knifing",
+        "meaning": "Body surfing",
+        "example": "The waves are perfect for knifing today.",
+        "quiz": {
+            "question": "What is 'knifing'?",
+            "explanation": "Knifing is body surfing (riding waves without a board).",
+            "choices": [
+                {
+                    "text": "Using knives",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Body surfing",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Surfboard riding",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dumped",
+        "meaning": "Knocked over by a wave",
+        "example": "I got dumped by a massive wave!",
+        "quiz": {
+            "question": "What does 'dumped' mean in surfing?",
+            "explanation": "Dumped means knocked over or thrown by a wave.",
+            "choices": [
+                {
+                    "text": "Broke up with someone",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Knocked over by a wave",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Threw something away",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stinger",
+        "meaning": "Jellyfish (especially dangerous box jellyfish)",
+        "example": "Watch out for stingers in the water up north.",
+        "quiz": {
+            "question": "What is a 'stinger'?",
+            "explanation": "A stinger is a jellyfish, especially the dangerous box jellyfish.",
+            "choices": [
+                {
+                    "text": "A bee",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A jellyfish",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A mosquito",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bluebottle",
+        "meaning": "Blue jellyfish (Portuguese man o' war)",
+        "example": "Got stung by a bluebottle at the beach.",
+        "quiz": {
+            "question": "What is a 'bluebottle'?",
+            "explanation": "A bluebottle is a type of blue jellyfish (Portuguese man o' war).",
+            "choices": [
+                {
+                    "text": "A blue bottle",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A type of jellyfish",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A blue fly",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rip",
+        "meaning": "Dangerous ocean current (rip current)",
+        "example": "Be careful, there's a strong rip here.",
+        "quiz": {
+            "question": "What is a 'rip' at the beach?",
+            "explanation": "A rip is a dangerous ocean current that can pull swimmers out to sea.",
+            "choices": [
+                {
+                    "text": "A tear",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A dangerous ocean current",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A big wave",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shark biscuit",
+        "meaning": "Beginner surfer (humorous)",
+        "example": "Look at all the shark biscuits out there today!",
+        "quiz": {
+            "question": "What is a 'shark biscuit'?",
+            "explanation": "A shark biscuit is a humorous term for a beginner surfer.",
+            "choices": [
+                {
+                    "text": "Food for sharks",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A beginner surfer",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of cookie",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Aerial",
+        "meaning": "Antenna (TV/radio)",
+        "example": "The aerial needs adjusting.",
+        "quiz": {
+            "question": "In Australian English, what is an 'aerial'?",
+            "explanation": "Aerial is the Australian term for antenna.",
+            "choices": [
+                {
+                    "text": "Something in the air",
+                    "isCorrect": false
+                },
+                {
+                    "text": "TV/radio antenna",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A gymnastic move",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rego",
+        "meaning": "Vehicle registration",
+        "example": "My car rego is due next month.",
+        "quiz": {
+            "question": "What is 'rego'?",
+            "explanation": "Rego is short for vehicle registration.",
+            "choices": [
+                {
+                    "text": "Arego cheese",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Vehicle registration",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A regular payment",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tassie",
+        "meaning": "Tasmania",
+        "example": "We're going to Tassie for a holiday.",
+        "quiz": {
+            "question": "What is 'Tassie'?",
+            "explanation": "Tassie is short for Tasmania, the island state.",
+            "choices": [
+                {
+                    "text": "A drink",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Tasmania",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A person's name",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Brissy",
+        "meaning": "Brisbane",
+        "example": "Flying up to Brissy tomorrow.",
+        "quiz": {
+            "question": "What is 'Brissy'?",
+            "explanation": "Brissy is a nickname for Brisbane.",
+            "choices": [
+                {
+                    "text": "A breezy day",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Brisbane",
+                    "isCorrect": true
+                },
+                {
+                    "text": "British",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Melbs",
+        "meaning": "Melbourne",
+        "example": "Heading down to Melbs this weekend.",
+        "quiz": {
+            "question": "What is 'Melbs'?",
+            "explanation": "Melbs is a nickname for Melbourne.",
+            "choices": [
+                {
+                    "text": "A person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Melbourne",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Melted butter",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rotto",
+        "meaning": "Rottnest Island (Western Australia)",
+        "example": "Going to Rotto for the long weekend.",
+        "quiz": {
+            "question": "What is 'Rotto'?",
+            "explanation": "Rotto is short for Rottnest Island off Perth.",
+            "choices": [
+                {
+                    "text": "Rotten food",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Rottnest Island",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A restaurant",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "The G",
+        "meaning": "Melbourne Cricket Ground (MCG)",
+        "example": "Watching the footy at the G.",
+        "quiz": {
+            "question": "What is 'the G'?",
+            "explanation": "The G is the Melbourne Cricket Ground (MCG).",
+            "choices": [
+                {
+                    "text": "The letter G",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Melbourne Cricket Ground",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A gang",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "The SCG",
+        "meaning": "Sydney Cricket Ground",
+        "example": "Big match at the SCG tomorrow.",
+        "quiz": {
+            "question": "What is 'the SCG'?",
+            "explanation": "The SCG is the Sydney Cricket Ground.",
+            "choices": [
+                {
+                    "text": "A company",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sydney Cricket Ground",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A school",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "The Gabba",
+        "meaning": "Brisbane Cricket Ground (Woolloongabba)",
+        "example": "Heading to the Gabba for the test match.",
+        "quiz": {
+            "question": "What is 'the Gabba'?",
+            "explanation": "The Gabba is the Brisbane Cricket Ground in Woolloongabba.",
+            "choices": [
+                {
+                    "text": "A bar",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Brisbane Cricket Ground",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A dance",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Two-up",
+        "meaning": "Traditional gambling game with coins",
+        "example": "Playing two-up on Anzac Day.",
+        "quiz": {
+            "question": "What is 'two-up'?",
+            "explanation": "Two-up is a traditional Australian gambling game involving tossing two coins.",
+            "choices": [
+                {
+                    "text": "A score in sports",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A gambling game with coins",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A drink order",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pokies",
+        "meaning": "Poker machines; slot machines",
+        "example": "He lost all his money on the pokies.",
+        "quiz": {
+            "question": "What are 'pokies'?",
+            "explanation": "Pokies are poker machines or slot machines.",
+            "choices": [
+                {
+                    "text": "Piercings",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Poker machines; slot machines",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Poke bowls",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Punt",
+        "meaning": "Bet; gamble",
+        "example": "I'll have a punt on that horse.",
+        "quiz": {
+            "question": "What does 'have a punt' mean?",
+            "explanation": "Have a punt means to place a bet or gamble.",
+            "choices": [
+                {
+                    "text": "Kick a football",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Place a bet; gamble",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Go on a boat",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bookie",
+        "meaning": "Bookmaker; person who takes bets",
+        "example": "Placing a bet with the bookie.",
+        "quiz": {
+            "question": "What is a 'bookie'?",
+            "explanation": "A bookie is a bookmaker who takes bets on races or sports.",
+            "choices": [
+                {
+                    "text": "A librarian",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A bookmaker; betting agent",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A book seller",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Knock-off time",
+        "meaning": "End of work day; quitting time",
+        "example": "Can't wait for knock-off time!",
+        "quiz": {
+            "question": "What is 'knock-off time'?",
+            "explanation": "Knock-off time is the end of the work day or quitting time.",
+            "choices": [
+                {
+                    "text": "Fight time",
+                    "isCorrect": false
+                },
+                {
+                    "text": "End of work day",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sale time",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Smoko",
+        "meaning": "Tea break; work break",
+        "example": "It's smoko time, let's have a cuppa.",
+        "quiz": {
+            "question": "What is 'smoko'?",
+            "explanation": "Smoko is a tea break or work break (historically a smoke break).",
+            "choices": [
+                {
+                    "text": "A smoking area",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A tea break; work break",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A barbecue",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sickie",
+        "meaning": "Day off work claiming to be sick",
+        "example": "He threw a sickie to watch the cricket.",
+        "quiz": {
+            "question": "What does 'throw a sickie' mean?",
+            "explanation": "Throw a sickie means to take a day off work by claiming to be sick (often when not actually sick).",
+            "choices": [
+                {
+                    "text": "Vomit",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Skip work by claiming sick",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Throw something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "RDO",
+        "meaning": "Rostered Day Off",
+        "example": "I've got an RDO on Friday.",
+        "quiz": {
+            "question": "What is an 'RDO'?",
+            "explanation": "RDO stands for Rostered Day Off - a scheduled day off work.",
+            "choices": [
+                {
+                    "text": "Random Day Out",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Rostered Day Off",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Required Duty Order",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Doona",
+        "meaning": "Duvet; comforter",
+        "example": "Grab the doona, it's freezing!",
+        "quiz": {
+            "question": "What is a 'doona'?",
+            "explanation": "Doona is the Australian term for a duvet or comforter.",
+            "choices": [
+                {
+                    "text": "A pillow",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A duvet; comforter",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A blanket",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Jocks",
+        "meaning": "Men's underwear; underpants",
+        "example": "Need to buy some new jocks.",
+        "quiz": {
+            "question": "What are 'jocks'?",
+            "explanation": "Jocks are men's underwear or underpants.",
+            "choices": [
+                {
+                    "text": "Athletes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Men's underwear",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Socks",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Undies",
+        "meaning": "Underwear",
+        "example": "Don't forget to pack clean undies!",
+        "quiz": {
+            "question": "What are 'undies'?",
+            "explanation": "Undies is short for underwear.",
+            "choices": [
+                {
+                    "text": "Under the table",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Underwear",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Socks",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Trackie dacks",
+        "meaning": "Tracksuit pants; sweatpants",
+        "example": "Just lounging in my trackie dacks.",
+        "quiz": {
+            "question": "What are 'trackie dacks'?",
+            "explanation": "Trackie dacks are tracksuit pants or sweatpants.",
+            "choices": [
+                {
+                    "text": "Running shoes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Tracksuit pants",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Duck tracks",
+                    "isCorrect": false
+                }
+            ]
+        }
+    }
+]

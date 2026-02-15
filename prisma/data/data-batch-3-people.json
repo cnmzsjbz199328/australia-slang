@@ -1,0 +1,1152 @@
+[
+    {
+        "phrase": "Ankle-biter",
+        "meaning": "Small child; toddler",
+        "example": "The ankle-biters are running around the backyard.",
+        "quiz": {
+            "question": "What is an 'ankle-biter'?",
+            "explanation": "Ankle-biter is Australian slang for a small child or toddler.",
+            "choices": [
+                {
+                    "text": "A small dog",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A small child",
+                    "isCorrect": true
+                },
+                {
+                    "text": "An insect",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Oldies",
+        "meaning": "Parents or older people",
+        "example": "Going to visit the oldies this weekend.",
+        "quiz": {
+            "question": "Who are 'the oldies'?",
+            "explanation": "Oldies typically refers to parents or older family members.",
+            "choices": [
+                {
+                    "text": "Old music",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Parents; older people",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Antiques",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cobber",
+        "meaning": "Friend; mate",
+        "example": "He's a good cobber of mine.",
+        "quiz": {
+            "question": "What is a 'cobber'?",
+            "explanation": "Cobber is an older Australian term for friend or mate.",
+            "choices": [
+                {
+                    "text": "An enemy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A friend",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A corn on the cob",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Drongo",
+        "meaning": "Fool; idiot",
+        "example": "You drongo, you forgot your keys again!",
+        "quiz": {
+            "question": "If someone calls you a 'drongo', what are they saying?",
+            "explanation": "Drongo means fool or idiot in Australian slang.",
+            "choices": [
+                {
+                    "text": "You're smart",
+                    "isCorrect": false
+                },
+                {
+                    "text": "You're a fool",
+                    "isCorrect": true
+                },
+                {
+                    "text": "You're tall",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Larrikin",
+        "meaning": "Mischievous but likeable person",
+        "example": "He's a bit of a larrikin, always joking around.",
+        "quiz": {
+            "question": "What is a 'larrikin'?",
+            "explanation": "Larrikin is a mischievous, playful person who's generally good-natured.",
+            "choices": [
+                {
+                    "text": "A criminal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A mischievous but likeable person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A bird",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Legend",
+        "meaning": "Great person; someone impressive",
+        "example": "Thanks for helping, you're a legend!",
+        "quiz": {
+            "question": "If someone calls you a 'legend', what do they mean?",
+            "explanation": "Legend is a term of praise meaning you're a great or impressive person.",
+            "choices": [
+                {
+                    "text": "You're old",
+                    "isCorrect": false
+                },
+                {
+                    "text": "You're a great person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "You're fictional",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Battler",
+        "meaning": "Someone who works hard despite difficulties",
+        "example": "She's a real battler, supporting three kids on her own.",
+        "quiz": {
+            "question": "What is a 'battler'?",
+            "explanation": "Battler is someone who perseveres and works hard despite tough circumstances.",
+            "choices": [
+                {
+                    "text": "A fighter",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Someone who works hard despite difficulties",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A warrior",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bludger",
+        "meaning": "Lazy person; someone who avoids work",
+        "example": "He's such a bludger, never does his share.",
+        "quiz": {
+            "question": "What is a 'bludger'?",
+            "explanation": "Bludger is a lazy person who avoids work or responsibilities.",
+            "choices": [
+                {
+                    "text": "A hard worker",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A lazy person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A weapon",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dag",
+        "meaning": "Unfashionable but endearing person",
+        "example": "Dad's such a dag with his old jokes.",
+        "quiz": {
+            "question": "What is a 'dag'?",
+            "explanation": "Dag is an unfashionable or dorky person who's still likeable.",
+            "choices": [
+                {
+                    "text": "A fashionable person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An unfashionable but endearing person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A mean person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Ratbag",
+        "meaning": "Mischievous or troublesome person",
+        "example": "That little ratbag drew on the walls!",
+        "quiz": {
+            "question": "What is a 'ratbag'?",
+            "explanation": "Ratbag is a mischievous or troublesome person, often said affectionately.",
+            "choices": [
+                {
+                    "text": "A bag of rats",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A mischievous person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A good person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Wanker",
+        "meaning": "Annoying or pretentious person",
+        "example": "That guy's a complete wanker.",
+        "quiz": {
+            "question": "What is a 'wanker'?",
+            "explanation": "Wanker is a derogatory term for an annoying or pretentious person.",
+            "choices": [
+                {
+                    "text": "A nice person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An annoying person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A friend",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Yobbo",
+        "meaning": "Uncouth, rowdy person",
+        "example": "The yobbos were causing trouble at the pub.",
+        "quiz": {
+            "question": "What is a 'yobbo'?",
+            "explanation": "Yobbo is an uncouth, rowdy, or badly-behaved person.",
+            "choices": [
+                {
+                    "text": "A polite person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An uncouth, rowdy person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A musician",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sickie",
+        "meaning": "Day off work (claiming sick)",
+        "example": "I'm chucking a sickie tomorrow to go to the beach.",
+        "quiz": {
+            "question": "What does 'chuck a sickie' mean?",
+            "explanation": "Chuck a sickie means taking a day off work by calling in sick (often not actually sick).",
+            "choices": [
+                {
+                    "text": "Being actually ill",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Calling in sick to skip work",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Throwing something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Hooroo",
+        "meaning": "Goodbye; see you later",
+        "example": "Hooroo mate, see you next week!",
+        "quiz": {
+            "question": "What does 'hooroo' mean?",
+            "explanation": "Hooroo is an Australian way to say goodbye.",
+            "choices": [
+                {
+                    "text": "Hello",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Goodbye",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Thank you",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Catch ya later",
+        "meaning": "See you later; goodbye",
+        "example": "Catch ya later, I'm off to work.",
+        "quiz": {
+            "question": "What does 'catch ya later' mean?",
+            "explanation": "Catch ya later is a casual way to say see you later or goodbye.",
+            "choices": [
+                {
+                    "text": "I'll catch you",
+                    "isCorrect": false
+                },
+                {
+                    "text": "See you later",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Hurry up",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "See ya",
+        "meaning": "Goodbye; see you",
+        "example": "See ya tomorrow at the barbie!",
+        "quiz": {
+            "question": "What does 'see ya' mean?",
+            "explanation": "See ya is a casual goodbye, short for 'see you'.",
+            "choices": [
+                {
+                    "text": "Hello",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Goodbye",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Watch out",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Seppo",
+        "meaning": "American person",
+        "example": "There's a bunch of seppos at the hotel.",
+        "quiz": {
+            "question": "What is a 'seppo'?",
+            "explanation": "Seppo is rhyming slang for American (septic tank = yank).",
+            "choices": [
+                {
+                    "text": "A British person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An American person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of tank",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pom",
+        "meaning": "British person",
+        "example": "The Poms are visiting from England.",
+        "quiz": {
+            "question": "What is a 'Pom'?",
+            "explanation": "Pom is Australian slang for a British person.",
+            "choices": [
+                {
+                    "text": "An Australian",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A British person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A fruit",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Whinging Pom",
+        "meaning": "Complaining British person",
+        "example": "Stop being a whinging Pom and enjoy the sun!",
+        "quiz": {
+            "question": "What is a 'whinging Pom'?",
+            "explanation": "Whinging Pom is a stereotypical term for a British person who complains a lot.",
+            "choices": [
+                {
+                    "text": "A happy British person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A complaining British person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "An American",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Kiwi",
+        "meaning": "New Zealand person",
+        "example": "My mate's a Kiwi from Auckland.",
+        "quiz": {
+            "question": "What is a 'Kiwi' (when referring to a person)?",
+            "explanation": "Kiwi is a person from New Zealand.",
+            "choices": [
+                {
+                    "text": "A bird",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A New Zealand person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A fruit",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bushie",
+        "meaning": "Person from the bush/country",
+        "example": "He's a real bushie, grew up on a farm.",
+        "quiz": {
+            "question": "What is a 'bushie'?",
+            "explanation": "Bushie is someone from the bush or rural areas.",
+            "choices": [
+                {
+                    "text": "A city person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A person from the country",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A gardener",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Jackaroo",
+        "meaning": "Male farmhand; ranch hand",
+        "example": "He's working as a jackaroo on a cattle station.",
+        "quiz": {
+            "question": "What is a 'jackaroo'?",
+            "explanation": "Jackaroo is a male trainee on a sheep or cattle station.",
+            "choices": [
+                {
+                    "text": "A kangaroo",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A male farmhand",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cowboy hat",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Jillaroo",
+        "meaning": "Female farmhand; ranch hand",
+        "example": "She's working as a jillaroo in the outback.",
+        "quiz": {
+            "question": "What is a 'jillaroo'?",
+            "explanation": "Jillaroo is a female trainee on a sheep or cattle station.",
+            "choices": [
+                {
+                    "text": "A female kangaroo",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A female farmhand",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A dance",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sparky",
+        "meaning": "Electrician",
+        "example": "Better call a sparky to fix those wires.",
+        "quiz": {
+            "question": "What is a 'sparky'?",
+            "explanation": "Sparky is Australian slang for an electrician.",
+            "choices": [
+                {
+                    "text": "A plumber",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An electrician",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cheerful person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chippy",
+        "meaning": "Carpenter",
+        "example": "The chippy is building our new deck.",
+        "quiz": {
+            "question": "What is a 'chippy' (besides a fish shop)?",
+            "explanation": "Chippy can also mean carpenter (from wood chips).",
+            "choices": [
+                {
+                    "text": "A painter",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A carpenter",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A chef",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tradie",
+        "meaning": "Tradesperson; skilled worker",
+        "example": "The tradies start work at 7am.",
+        "quiz": {
+            "question": "What is a 'tradie'?",
+            "explanation": "Tradie is short for tradesperson - a skilled worker like plumber, electrician, etc.",
+            "choices": [
+                {
+                    "text": "A trader",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A tradesperson; skilled worker",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A traditional person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Garbo",
+        "meaning": "Garbage collector",
+        "example": "The garbos come on Tuesday mornings.",
+        "quiz": {
+            "question": "What is a 'garbo'?",
+            "explanation": "Garbo is Australian slang for garbage collector.",
+            "choices": [
+                {
+                    "text": "A gardener",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A garbage collector",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A garage owner",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Postie",
+        "meaning": "Postal worker; mail carrier",
+        "example": "The postie delivered a package today.",
+        "quiz": {
+            "question": "What is a 'postie'?",
+            "explanation": "Postie is a postal worker or mail carrier.",
+            "choices": [
+                {
+                    "text": "A poster",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A postal worker",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A fence post",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Ambo",
+        "meaning": "Ambulance officer; paramedic",
+        "example": "The ambos arrived within minutes.",
+        "quiz": {
+            "question": "What is an 'ambo'?",
+            "explanation": "Ambo is short for ambulance officer or paramedic.",
+            "choices": [
+                {
+                    "text": "An ambassador",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An ambulance officer",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A soldier",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Firey",
+        "meaning": "Firefighter",
+        "example": "The fireys did an amazing job controlling the blaze.",
+        "quiz": {
+            "question": "What is a 'firey'?",
+            "explanation": "Firey is Australian slang for firefighter.",
+            "choices": [
+                {
+                    "text": "An angry person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A firefighter",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A chef",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Polly",
+        "meaning": "Politician",
+        "example": "The pollies are debating in parliament today.",
+        "quiz": {
+            "question": "What is a 'polly'?",
+            "explanation": "Polly is short for politician.",
+            "choices": [
+                {
+                    "text": "A parrot",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A politician",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A police officer",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Journo",
+        "meaning": "Journalist",
+        "example": "The journos were asking questions at the press conference.",
+        "quiz": {
+            "question": "What is a 'journo'?",
+            "explanation": "Journo is short for journalist.",
+            "choices": [
+                {
+                    "text": "A journey",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A journalist",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A journal",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Barbie doll",
+        "meaning": "Attractive but not very smart person",
+        "example": "She's pretty but a bit of a barbie doll.",
+        "quiz": {
+            "question": "What does 'barbie doll' mean (when describing a person)?",
+            "explanation": "Barbie doll can mean an attractive but superficial or not very intelligent person.",
+            "choices": [
+                {
+                    "text": "A toy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Attractive but not smart",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A chef",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Mongrel",
+        "meaning": "Unpleasant person; sometimes affectionate",
+        "example": "You old mongrel, keeping secrets from me!",
+        "quiz": {
+            "question": "What does 'mongrel' mean when referring to a person?",
+            "explanation": "Mongrel can mean an unpleasant person, but is sometimes used affectionately among mates.",
+            "choices": [
+                {
+                    "text": "A mixed-breed dog",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An unpleasant person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A nice person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sook",
+        "meaning": "Crybaby; oversensitive person",
+        "example": "Don't be such a sook, it's just a scratch.",
+        "quiz": {
+            "question": "What is a 'sook'?",
+            "explanation": "Sook is a crybaby or overly sensitive person.",
+            "choices": [
+                {
+                    "text": "A brave person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A crybaby; oversensitive person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cook",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sook",
+        "meaning": "To sulk or feel sorry for oneself",
+        "example": "Stop sooking and get on with it.",
+        "quiz": {
+            "question": "What does 'sooking' mean?",
+            "explanation": "Sooking means sulking or feeling sorry for oneself.",
+            "choices": [
+                {
+                    "text": "Cooking",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sulking; feeling sorry for oneself",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Celebrating",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sticky beak",
+        "meaning": "Nosy person; busybody",
+        "example": "She's such a sticky beak, always in everyone's business.",
+        "quiz": {
+            "question": "What is a 'sticky beak'?",
+            "explanation": "Sticky beak is a nosy person who pries into others' affairs.",
+            "choices": [
+                {
+                    "text": "A bird",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A nosy person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A friendly person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tall poppy",
+        "meaning": "Successful person who attracts criticism",
+        "example": "Tall poppy syndrome - we love to cut down success.",
+        "quiz": {
+            "question": "What is a 'tall poppy'?",
+            "explanation": "Tall poppy is a successful person who attracts jealousy or criticism from others.",
+            "choices": [
+                {
+                    "text": "A tall flower",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A successful person who attracts criticism",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A friendly person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Relo",
+        "meaning": "Relative; family member",
+        "example": "I've got relos visiting from interstate.",
+        "quiz": {
+            "question": "What is a 'relo'?",
+            "explanation": "Relo is short for relative or family member.",
+            "choices": [
+                {
+                    "text": "A friend",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A relative; family member",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A relocation",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Missus",
+        "meaning": "Wife; female partner",
+        "example": "I'll have to ask the missus first.",
+        "quiz": {
+            "question": "Who is 'the missus'?",
+            "explanation": "Missus is wife or female partner.",
+            "choices": [
+                {
+                    "text": "Mother",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Wife; female partner",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sister",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Old man",
+        "meaning": "Father or husband",
+        "example": "My old man taught me how to fish.",
+        "quiz": {
+            "question": "Who is 'the old man'?",
+            "explanation": "Old man can refer to father or husband.",
+            "choices": [
+                {
+                    "text": "Grandfather",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Father or husband",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Boss",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sheila",
+        "meaning": "Woman; girl (old-fashioned)",
+        "example": "That sheila over there is my cousin.",
+        "quiz": {
+            "question": "What is a 'sheila'?",
+            "explanation": "Sheila is an old-fashioned Australian term for woman or girl.",
+            "choices": [
+                {
+                    "text": "A man",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A woman",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A child",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bruce",
+        "meaning": "Stereotypical Australian man's name",
+        "example": "Every second bloke seems to be called Bruce!",
+        "quiz": {
+            "question": "Why is 'Bruce' significant in Australian slang?",
+            "explanation": "Bruce is used as a stereotypical name for Australian men, like 'John' in other contexts.",
+            "choices": [
+                {
+                    "text": "It's the prime minister's name",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It's a stereotypical Australian man's name",
+                    "isCorrect": true
+                },
+                {
+                    "text": "It's a city name",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bazza",
+        "meaning": "Nickname for Barry",
+        "example": "Bazza's coming to the barbie on Saturday.",
+        "quiz": {
+            "question": "What name is 'Bazza' short for?",
+            "explanation": "Bazza is a nickname for Barry (adding -azza to names is common in Aussie slang).",
+            "choices": [
+                {
+                    "text": "Barry",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Basil",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Benjamin",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shazza",
+        "meaning": "Nickname for Sharon",
+        "example": "Shazza and Dazza are getting married!",
+        "quiz": {
+            "question": "What name is 'Shazza' short for?",
+            "explanation": "Shazza is a nickname for Sharon.",
+            "choices": [
+                {
+                    "text": "Charlotte",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sharon",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cheryl",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dazza",
+        "meaning": "Nickname for Darren",
+        "example": "Dazza's bringing his ute to help us move.",
+        "quiz": {
+            "question": "What name is 'Dazza' short for?",
+            "explanation": "Dazza is a nickname for Darren.",
+            "choices": [
+                {
+                    "text": "David",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Darren",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Daniel",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Gazza",
+        "meaning": "Nickname for Gary or Gareth",
+        "example": "Gazza's playing footy this weekend.",
+        "quiz": {
+            "question": "What name is 'Gazza' short for?",
+            "explanation": "Gazza is a nickname for Gary or Gareth.",
+            "choices": [
+                {
+                    "text": "George",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Gary or Gareth",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Gabriel",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Macca",
+        "meaning": "Nickname for someone with Mac surname",
+        "example": "Macca's got the best jokes.",
+        "quiz": {
+            "question": "What is 'Macca' a nickname for?",
+            "explanation": "Macca is a nickname for someone with a surname starting with Mac (like MacDonald, MacKenzie).",
+            "choices": [
+                {
+                    "text": "McDonald's",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Someone with Mac surname",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Matthew",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Brekkie mate",
+        "meaning": "Someone you have breakfast with",
+        "example": "He's my brekkie mate, we meet every Sunday.",
+        "quiz": {
+            "question": "What is a 'brekkie mate'?",
+            "explanation": "Brekkie mate is someone you regularly have breakfast with.",
+            "choices": [
+                {
+                    "text": "A breakfast food",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Someone you have breakfast with",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A morning person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Work mate",
+        "meaning": "Colleague; coworker",
+        "example": "Going for drinks with the work mates tonight.",
+        "quiz": {
+            "question": "What is a 'work mate'?",
+            "explanation": "Work mate is a colleague or coworker.",
+            "choices": [
+                {
+                    "text": "A spouse",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A colleague; coworker",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A boss",
+                    "isCorrect": false
+                }
+            ]
+        }
+    }
+]

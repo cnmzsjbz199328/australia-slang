@@ -1,0 +1,1106 @@
+[
+    {
+        "phrase": "Snag",
+        "meaning": "Sausage",
+        "example": "Throw a few snags on the barbie for lunch.",
+        "quiz": {
+            "question": "What is a 'snag' in Australian slang?",
+            "explanation": "A snag is a sausage, especially one cooked on the barbecue.",
+            "choices": [
+                {
+                    "text": "A problem",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A sausage",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A snake",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chook",
+        "meaning": "Chicken",
+        "example": "We're having roast chook for dinner tonight.",
+        "quiz": {
+            "question": "What is a 'chook'?",
+            "explanation": "Chook is Australian slang for chicken.",
+            "choices": [
+                {
+                    "text": "A duck",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A chicken",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A turkey",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Grog",
+        "meaning": "Alcohol; alcoholic drinks",
+        "example": "Let's grab some grog for the party.",
+        "quiz": {
+            "question": "What is 'grog'?",
+            "explanation": "Grog is a general term for alcohol or alcoholic drinks.",
+            "choices": [
+                {
+                    "text": "Food",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Alcohol",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Coffee",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Coldie",
+        "meaning": "Cold beer",
+        "example": "Want to crack open a coldie?",
+        "quiz": {
+            "question": "What is a 'coldie'?",
+            "explanation": "Coldie is Australian slang for a cold beer.",
+            "choices": [
+                {
+                    "text": "Ice cream",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A cold beer",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cold day",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tinnie",
+        "meaning": "Can of beer",
+        "example": "I'll bring a six-pack of tinnies.",
+        "quiz": {
+            "question": "What is a 'tinnie'?",
+            "explanation": "Tinnie is a can of beer (aluminium can).",
+            "choices": [
+                {
+                    "text": "A small boat",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A can of beer",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A tin roof",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stubby",
+        "meaning": "Small bottle of beer",
+        "example": "Hand me a stubby from the esky.",
+        "quiz": {
+            "question": "What is a 'stubby'?",
+            "explanation": "Stubby is a small bottle of beer, typically 375ml.",
+            "choices": [
+                {
+                    "text": "A short person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A small bottle of beer",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A pencil",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Longneck",
+        "meaning": "Large bottle of beer (750ml)",
+        "example": "I'll grab a longneck for the road trip.",
+        "quiz": {
+            "question": "What is a 'longneck'?",
+            "explanation": "Longneck is a large 750ml bottle of beer.",
+            "choices": [
+                {
+                    "text": "A giraffe",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A large bottle of beer",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A long road",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Slab",
+        "meaning": "Case of 24 beers",
+        "example": "We'll need a slab for the barbecue.",
+        "quiz": {
+            "question": "What is a 'slab' of beer?",
+            "explanation": "A slab is a case containing 24 cans or bottles of beer.",
+            "choices": [
+                {
+                    "text": "One beer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A case of 24 beers",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A beer tap",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Servo pie",
+        "meaning": "Meat pie from service station",
+        "example": "Stopped at the servo for a pie on the way home.",
+        "quiz": {
+            "question": "What is a 'servo pie'?",
+            "explanation": "Servo pie is a meat pie bought from a service station, often eaten as a snack.",
+            "choices": [
+                {
+                    "text": "A homemade pie",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A pie from a service station",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A dessert pie",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Fairy bread",
+        "meaning": "White bread with butter and sprinkles",
+        "example": "Every Aussie kid's birthday has fairy bread!",
+        "quiz": {
+            "question": "What is 'fairy bread'?",
+            "explanation": "Fairy bread is white bread with butter and colorful sprinkles, popular at children's parties.",
+            "choices": [
+                {
+                    "text": "Gluten-free bread",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Bread with butter and sprinkles",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of cake",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Lamington",
+        "meaning": "Sponge cake with chocolate and coconut",
+        "example": "These lamingtons are delicious!",
+        "quiz": {
+            "question": "What is a 'lamington'?",
+            "explanation": "Lamington is an Australian dessert - sponge cake dipped in chocolate and rolled in coconut.",
+            "choices": [
+                {
+                    "text": "A cookie",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sponge cake with chocolate and coconut",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A meat dish",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Vegemite",
+        "meaning": "Dark brown savory spread",
+        "example": "Toast with Vegemite for brekkie.",
+        "quiz": {
+            "question": "What is 'Vegemite'?",
+            "explanation": "Vegemite is a thick, dark brown Australian food spread made from yeast extract.",
+            "choices": [
+                {
+                    "text": "A type of vegetable",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A savory spread",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A mineral",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tim Tam",
+        "meaning": "Popular chocolate biscuit brand",
+        "example": "Do the Tim Tam slam with your coffee!",
+        "quiz": {
+            "question": "What is a 'Tim Tam'?",
+            "explanation": "Tim Tam is a popular Australian chocolate-covered biscuit/cookie.",
+            "choices": [
+                {
+                    "text": "A person's name",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A chocolate biscuit",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A dance",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Anzac biscuit",
+        "meaning": "Oat and coconut cookie",
+        "example": "Grandma makes the best Anzac biscuits.",
+        "quiz": {
+            "question": "What is an 'Anzac biscuit'?",
+            "explanation": "Anzac biscuit is a traditional Australian cookie made with oats, coconut, and golden syrup.",
+            "choices": [
+                {
+                    "text": "A military uniform",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An oat and coconut cookie",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cracker",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pavlova",
+        "meaning": "Meringue dessert with cream and fruit",
+        "example": "Mum's making pavlova for Christmas.",
+        "quiz": {
+            "question": "What is a 'pavlova'?",
+            "explanation": "Pavlova is a meringue-based dessert topped with whipped cream and fresh fruit.",
+            "choices": [
+                {
+                    "text": "A ballet dancer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A meringue dessert",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of pasta",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Damper",
+        "meaning": "Traditional bushman's bread",
+        "example": "We cooked damper over the campfire.",
+        "quiz": {
+            "question": "What is 'damper'?",
+            "explanation": "Damper is a traditional Australian soda bread, historically baked by bush travelers.",
+            "choices": [
+                {
+                    "text": "A tool",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A type of bread",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A weather condition",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bunnings snag",
+        "meaning": "Sausage in bread from Bunnings BBQ",
+        "example": "Can't go to Bunnings without getting a snag!",
+        "quiz": {
+            "question": "What is a 'Bunnings snag'?",
+            "explanation": "Bunnings snag is a sausage in bread sold at Bunnings hardware store fundraiser BBQs.",
+            "choices": [
+                {
+                    "text": "A power tool",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A sausage in bread from Bunnings",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A nail",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cheese and kisses",
+        "meaning": "Missus; wife (rhyming slang)",
+        "example": "I need to ask the cheese and kisses first.",
+        "quiz": {
+            "question": "What does 'cheese and kisses' mean?",
+            "explanation": "Cheese and kisses is rhyming slang for missus (wife).",
+            "choices": [
+                {
+                    "text": "A food combination",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Wife; missus",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A romantic gesture",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dead horse",
+        "meaning": "Tomato sauce (rhyming slang)",
+        "example": "Pass the dead horse for the sausage roll.",
+        "quiz": {
+            "question": "What is 'dead horse' in Australian rhyming slang?",
+            "explanation": "Dead horse is rhyming slang for sauce, typically tomato sauce/ketchup.",
+            "choices": [
+                {
+                    "text": "A meat dish",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Tomato sauce",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Old food",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dog's eye",
+        "meaning": "Meat pie (rhyming slang)",
+        "example": "I'll have a dog's eye and sauce.",
+        "quiz": {
+            "question": "What is a 'dog's eye'?",
+            "explanation": "Dog's eye is rhyming slang for pie, typically a meat pie.",
+            "choices": [
+                {
+                    "text": "A body part",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A meat pie",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A camera",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sausage sizzle",
+        "meaning": "Community BBQ fundraiser event",
+        "example": "There's a sausage sizzle outside the supermarket.",
+        "quiz": {
+            "question": "What is a 'sausage sizzle'?",
+            "explanation": "Sausage sizzle is a community BBQ event where sausages are sold for fundraising.",
+            "choices": [
+                {
+                    "text": "A cooking technique",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A fundraiser BBQ event",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A restaurant",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Mince",
+        "meaning": "Ground meat",
+        "example": "I bought some mince to make spag bol.",
+        "quiz": {
+            "question": "What is 'mince' in Australian English?",
+            "explanation": "Mince is ground/minced meat (ground beef, etc.).",
+            "choices": [
+                {
+                    "text": "A pie",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Ground meat",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cooking style",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Spag bol",
+        "meaning": "Spaghetti bolognese",
+        "example": "Making spag bol for dinner tonight.",
+        "quiz": {
+            "question": "What is 'spag bol'?",
+            "explanation": "Spag bol is short for spaghetti bolognese.",
+            "choices": [
+                {
+                    "text": "A sport",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Spaghetti bolognese",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A tool",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chips",
+        "meaning": "French fries (not crisps)",
+        "example": "Fish and chips from the local shop.",
+        "quiz": {
+            "question": "In Australia, what are 'chips'?",
+            "explanation": "In Australia, chips are french fries (what Americans call fries). Potato chips are called crisps.",
+            "choices": [
+                {
+                    "text": "Computer parts",
+                    "isCorrect": false
+                },
+                {
+                    "text": "French fries",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Poker chips",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chippy",
+        "meaning": "Fish and chip shop",
+        "example": "Let's get takeaway from the chippy.",
+        "quiz": {
+            "question": "What is a 'chippy'?",
+            "explanation": "Chippy is a fish and chip shop.",
+            "choices": [
+                {
+                    "text": "A carpenter",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A fish and chip shop",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A computer technician",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Maccas run",
+        "meaning": "Trip to McDonald's",
+        "example": "Anyone want to come on a Maccas run?",
+        "quiz": {
+            "question": "What is a 'Maccas run'?",
+            "explanation": "Maccas run is a trip to McDonald's to get food.",
+            "choices": [
+                {
+                    "text": "A marathon",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A trip to McDonald's",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A delivery service",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Hungry Jack's",
+        "meaning": "Burger King in Australia",
+        "example": "Let's get Hungry Jack's instead.",
+        "quiz": {
+            "question": "What is 'Hungry Jack's'?",
+            "explanation": "Hungry Jack's is the Australian name for Burger King.",
+            "choices": [
+                {
+                    "text": "A gym",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Burger King (in Australia)",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A clothing store",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Red rooter",
+        "meaning": "Red Rooster (chicken restaurant)",
+        "example": "Picking up Red Rooter for lunch.",
+        "quiz": {
+            "question": "What is 'Red Rooter' slang for?",
+            "explanation": "Red Rooter is slang for Red Rooster, an Australian chicken restaurant chain.",
+            "choices": [
+                {
+                    "text": "A tool",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Red Rooster restaurant",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A bird",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rissole",
+        "meaning": "Fried meat patty",
+        "example": "Nan makes the best rissoles.",
+        "quiz": {
+            "question": "What is a 'rissole'?",
+            "explanation": "Rissole is a fried meat patty, similar to a meatball but flat.",
+            "choices": [
+                {
+                    "text": "A soup",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A fried meat patty",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A vegetable",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sausage roll",
+        "meaning": "Sausage meat in puff pastry",
+        "example": "Grab a sausage roll from the bakery.",
+        "quiz": {
+            "question": "What is a 'sausage roll'?",
+            "explanation": "Sausage roll is sausage meat wrapped in puff pastry and baked.",
+            "choices": [
+                {
+                    "text": "A type of bread",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sausage meat in pastry",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A breakfast item",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Party pie",
+        "meaning": "Small mini meat pie",
+        "example": "Heat up some party pies for the kids.",
+        "quiz": {
+            "question": "What is a 'party pie'?",
+            "explanation": "Party pie is a small, bite-sized meat pie, often served at parties.",
+            "choices": [
+                {
+                    "text": "A dessert",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A small mini meat pie",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A pizza",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dim sim",
+        "meaning": "Large steamed dumpling",
+        "example": "Get me a couple of dim sims from the milk bar.",
+        "quiz": {
+            "question": "What is a 'dim sim'?",
+            "explanation": "Dim sim is a large steamed or fried dumpling, an Australian Chinese food.",
+            "choices": [
+                {
+                    "text": "A light switch",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A large steamed dumpling",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A candy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Milk bar",
+        "meaning": "Small corner shop/convenience store",
+        "example": "Popping to the milk bar for some lollies.",
+        "quiz": {
+            "question": "What is a 'milk bar'?",
+            "explanation": "Milk bar is a small corner convenience store selling snacks, drinks, and basic groceries.",
+            "choices": [
+                {
+                    "text": "A dairy farm",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A small corner shop",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A nightclub",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Icy pole",
+        "meaning": "Popsicle; frozen ice treat",
+        "example": "It's so hot, I need an icy pole.",
+        "quiz": {
+            "question": "What is an 'icy pole'?",
+            "explanation": "Icy pole is a popsicle or frozen ice treat on a stick.",
+            "choices": [
+                {
+                    "text": "The North Pole",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A popsicle",
+                    "isCorrect": true
+                },
+                {
+                    "text": "An ice sculpture",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Zooper Dooper",
+        "meaning": "Brand of flavored ice pops",
+        "example": "Grab a Zooper Dooper from the freezer.",
+        "quiz": {
+            "question": "What is a 'Zooper Dooper'?",
+            "explanation": "Zooper Dooper is a popular Australian brand of flavored ice treats in plastic tubes.",
+            "choices": [
+                {
+                    "text": "A toy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A flavored ice pop",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cartoon character",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Golden Gaytime",
+        "meaning": "Popular ice cream brand",
+        "example": "It's hard to have a Gaytime on your own!",
+        "quiz": {
+            "question": "What is a 'Golden Gaytime'?",
+            "explanation": "Golden Gaytime is a popular Australian ice cream brand with a toffee and vanilla center.",
+            "choices": [
+                {
+                    "text": "A party",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An ice cream brand",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A TV show",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bubble O'Bill",
+        "meaning": "Ice cream with a bubble gum nose",
+        "example": "I'll have a Bubble O'Bill from the ice cream van.",
+        "quiz": {
+            "question": "What is a 'Bubble O'Bill'?",
+            "explanation": "Bubble O'Bill is an Australian ice cream shaped like a cowboy with a gumball nose.",
+            "choices": [
+                {
+                    "text": "A person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An ice cream with gum",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A bubble bath",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Milo",
+        "meaning": "Chocolate malt powder drink",
+        "example": "Make me a hot Milo please.",
+        "quiz": {
+            "question": "What is 'Milo'?",
+            "explanation": "Milo is a chocolate and malt powder drink popular in Australia.",
+            "choices": [
+                {
+                    "text": "A pet name",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A chocolate malt drink",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cereal",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Flat white",
+        "meaning": "Espresso with microfoam milk",
+        "example": "I'll have a flat white, thanks.",
+        "quiz": {
+            "question": "What is a 'flat white'?",
+            "explanation": "Flat white is an espresso-based coffee with microfoam milk, originating from Australia/NZ.",
+            "choices": [
+                {
+                    "text": "Plain milk",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Espresso with microfoam milk",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A white wall",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Long black",
+        "meaning": "Espresso with hot water",
+        "example": "Just a long black for me.",
+        "quiz": {
+            "question": "What is a 'long black' coffee?",
+            "explanation": "Long black is espresso poured over hot water, similar to an Americano.",
+            "choices": [
+                {
+                    "text": "Black tea",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Espresso with hot water",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A dark beer",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Brekky roll",
+        "meaning": "Breakfast sandwich/roll",
+        "example": "I'll grab a brekky roll on the way to work.",
+        "quiz": {
+            "question": "What is a 'brekky roll'?",
+            "explanation": "Brekky roll is a breakfast sandwich or roll with eggs, bacon, etc.",
+            "choices": [
+                {
+                    "text": "A gymnastics move",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A breakfast sandwich",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A morning routine",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Avo",
+        "meaning": "Avocado",
+        "example": "Smashed avo on toast is my favorite.",
+        "quiz": {
+            "question": "What is 'avo'?",
+            "explanation": "Avo is short for avocado.",
+            "choices": [
+                {
+                    "text": "A person's name",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Avocado",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Afternoon",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Smashed avo",
+        "meaning": "Avocado on toast",
+        "example": "Brunch spot does the best smashed avo.",
+        "quiz": {
+            "question": "What is 'smashed avo'?",
+            "explanation": "Smashed avo is mashed avocado served on toast, a popular Australian breakfast/brunch item.",
+            "choices": [
+                {
+                    "text": "Broken avocado",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Avocado on toast",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Avocado salad",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Macca's brekkie",
+        "meaning": "McDonald's breakfast",
+        "example": "Let's get Macca's brekkie this morning.",
+        "quiz": {
+            "question": "What is 'Macca's brekkie'?",
+            "explanation": "Macca's brekkie is McDonald's breakfast menu items.",
+            "choices": [
+                {
+                    "text": "A home-cooked meal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "McDonald's breakfast",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A cereal brand",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Hot chips",
+        "meaning": "French fries (to distinguish from crisps)",
+        "example": "Can I get some hot chips with that?",
+        "quiz": {
+            "question": "What are 'hot chips'?",
+            "explanation": "Hot chips are french fries, distinguishing them from potato crisps (chips in American English).",
+            "choices": [
+                {
+                    "text": "Spicy crisps",
+                    "isCorrect": false
+                },
+                {
+                    "text": "French fries",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Hot sauce",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chicken salt",
+        "meaning": "Seasoned salt for chips",
+        "example": "Don't forget the chicken salt on the chips!",
+        "quiz": {
+            "question": "What is 'chicken salt'?",
+            "explanation": "Chicken salt is a seasoned salt commonly used on hot chips in Australia.",
+            "choices": [
+                {
+                    "text": "Salt made from chicken",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Seasoned salt for chips",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Chicken seasoning",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "HSP",
+        "meaning": "Halal Snack Pack (meat, chips, sauce)",
+        "example": "Getting an HSP after the pub.",
+        "quiz": {
+            "question": "What is an 'HSP'?",
+            "explanation": "HSP stands for Halal Snack Pack - hot chips topped with kebab meat and sauce.",
+            "choices": [
+                {
+                    "text": "A health plan",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Halal Snack Pack",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A computer term",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "AB",
+        "meaning": "Halal Snack Pack with all sauces",
+        "example": "I'll have an AB - I want all the sauces!",
+        "quiz": {
+            "question": "In HSP context, what does 'AB' mean?",
+            "explanation": "AB (Atomic Bomb) means all three sauces on your Halal Snack Pack.",
+            "choices": [
+                {
+                    "text": "Always Busy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All sauces",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A meat type",
+                    "isCorrect": false
+                }
+            ]
+        }
+    }
+]

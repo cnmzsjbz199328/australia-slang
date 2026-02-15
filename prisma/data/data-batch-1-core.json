@@ -1,0 +1,1156 @@
+[
+    {
+        "phrase": "G'day",
+        "meaning": "Hello; good day",
+        "example": "G'day mate! How are you going?",
+        "quiz": {
+            "question": "What does 'G'day' mean?",
+            "explanation": "G'day is a casual Australian greeting meaning hello or good day.",
+            "choices": [
+                {
+                    "text": "Goodbye",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Hello; good day",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Thank you",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Good night",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Arvo",
+        "meaning": "Afternoon",
+        "example": "See you this arvo at the beach.",
+        "quiz": {
+            "question": "What does 'arvo' mean?",
+            "explanation": "Arvo is Australian slang for afternoon.",
+            "choices": [
+                {
+                    "text": "Morning",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Afternoon",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Evening",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Mate",
+        "meaning": "Friend; buddy",
+        "example": "He's a good mate of mine from school.",
+        "quiz": {
+            "question": "What does 'mate' usually mean in Australia?",
+            "explanation": "Mate is a friendly term for a friend or any person in Australia.",
+            "choices": [
+                {
+                    "text": "Enemy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Friend; buddy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Boss",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "No worries",
+        "meaning": "You're welcome; it's fine",
+        "example": "No worries, I'll get it done by tomorrow.",
+        "quiz": {
+            "question": "When an Aussie says 'no worries', what do they mean?",
+            "explanation": "No worries means you're welcome, or that something is fine and not a problem.",
+            "choices": [
+                {
+                    "text": "I am very worried",
+                    "isCorrect": false
+                },
+                {
+                    "text": "You're welcome; it's fine",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Don't talk to me",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "She'll be right",
+        "meaning": "It will be okay; no problem",
+        "example": "Don't stress about it, she'll be right.",
+        "quiz": {
+            "question": "What does 'she'll be right' express?",
+            "explanation": "It's a common Australian phrase meaning things will be okay; no need to worry.",
+            "choices": [
+                {
+                    "text": "A woman is correct",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It will be okay; no problem",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Something is wrong",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Fair dinkum",
+        "meaning": "Genuine; really true",
+        "example": "That's fair dinkum? I can't believe it!",
+        "quiz": {
+            "question": "What does 'fair dinkum' mean?",
+            "explanation": "Fair dinkum means genuine or really true in Australian slang.",
+            "choices": [
+                {
+                    "text": "Unfair",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Genuine; really true",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of drink",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Heaps",
+        "meaning": "A lot; very much",
+        "example": "Thanks heaps for your help with the move.",
+        "quiz": {
+            "question": "If someone says 'thanks heaps', what do they mean?",
+            "explanation": "Heaps means a lot or very much in Australian slang.",
+            "choices": [
+                {
+                    "text": "Thanks a little bit",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Thanks very much",
+                    "isCorrect": true
+                },
+                {
+                    "text": "No thanks",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Ta",
+        "meaning": "Thank you",
+        "example": "Ta mate, I owe you one.",
+        "quiz": {
+            "question": "What does 'ta' mean?",
+            "explanation": "Ta is a casual way to say thank you in Australia.",
+            "choices": [
+                {
+                    "text": "Goodbye",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Thank you",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Yes",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Ripper",
+        "meaning": "Excellent; great",
+        "example": "That was a ripper of a game last night!",
+        "quiz": {
+            "question": "If something is a 'ripper', what does that mean?",
+            "explanation": "Ripper means excellent or great in Australian slang.",
+            "choices": [
+                {
+                    "text": "Broken",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Excellent; great",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Boring",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stoked",
+        "meaning": "Very pleased; excited",
+        "example": "I'm stoked we won the match!",
+        "quiz": {
+            "question": "If someone is 'stoked', how do they feel?",
+            "explanation": "Stoked means very pleased or excited.",
+            "choices": [
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very pleased; excited",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tired",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Reckon",
+        "meaning": "Think; believe",
+        "example": "I reckon it's going to rain today.",
+        "quiz": {
+            "question": "What does 'reckon' mean?",
+            "explanation": "Reckon means to think or believe something.",
+            "choices": [
+                {
+                    "text": "To forget",
+                    "isCorrect": false
+                },
+                {
+                    "text": "To think; believe",
+                    "isCorrect": true
+                },
+                {
+                    "text": "To count",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bloody",
+        "meaning": "Very; extremely (emphasis word)",
+        "example": "It's bloody hot outside today!",
+        "quiz": {
+            "question": "What does 'bloody' mean when used as slang?",
+            "explanation": "Bloody is used as an emphasis word meaning very or extremely.",
+            "choices": [
+                {
+                    "text": "Related to blood",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very; extremely",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Aussie",
+        "meaning": "Australian person",
+        "example": "He's a true Aussie, born and raised in Sydney.",
+        "quiz": {
+            "question": "What is an 'Aussie'?",
+            "explanation": "Aussie is short for Australian - a person from Australia.",
+            "choices": [
+                {
+                    "text": "A type of animal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An Australian person",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A city",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Straya",
+        "meaning": "Australia (informal pronunciation)",
+        "example": "Welcome to Straya mate!",
+        "quiz": {
+            "question": "What does 'Straya' refer to?",
+            "explanation": "Straya is an informal, casual way Australians say Australia.",
+            "choices": [
+                {
+                    "text": "A beach",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Australia",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A straw",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Crikey",
+        "meaning": "Expression of surprise",
+        "example": "Crikey! That was close!",
+        "quiz": {
+            "question": "When would you say 'crikey'?",
+            "explanation": "Crikey is an expression of surprise, similar to 'wow' or 'oh my'.",
+            "choices": [
+                {
+                    "text": "When happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "When surprised",
+                    "isCorrect": true
+                },
+                {
+                    "text": "When tired",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "How ya going",
+        "meaning": "How are you",
+        "example": "G'day mate, how ya going?",
+        "quiz": {
+            "question": "If someone asks 'how ya going', what are they asking?",
+            "explanation": "How ya going is the Australian way of asking how are you.",
+            "choices": [
+                {
+                    "text": "Where are you going",
+                    "isCorrect": false
+                },
+                {
+                    "text": "How are you",
+                    "isCorrect": true
+                },
+                {
+                    "text": "What time is it",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Yeah nah",
+        "meaning": "No (after consideration)",
+        "example": "Yeah nah, I don't think that's a good idea.",
+        "quiz": {
+            "question": "What does 'yeah nah' actually mean?",
+            "explanation": "Despite starting with 'yeah', it actually means no - it's a polite way to disagree.",
+            "choices": [
+                {
+                    "text": "Yes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "No",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Maybe",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Nah yeah",
+        "meaning": "Yes (after consideration)",
+        "example": "Nah yeah, that sounds like a plan.",
+        "quiz": {
+            "question": "What does 'nah yeah' actually mean?",
+            "explanation": "Despite starting with 'nah', it actually means yes - it's a thoughtful agreement.",
+            "choices": [
+                {
+                    "text": "No",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Yes",
+                    "isCorrect": true
+                },
+                {
+                    "text": "I don't know",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Ocker",
+        "meaning": "Stereotypical Australian person",
+        "example": "He's a real ocker, loves his footy and beer.",
+        "quiz": {
+            "question": "What is an 'ocker'?",
+            "explanation": "An ocker is a stereotypically Australian person - often seen as uncultured but genuinely Aussie.",
+            "choices": [
+                {
+                    "text": "A foreigner",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A stereotypical Australian",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A sports player",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Good on ya",
+        "meaning": "Well done; good job",
+        "example": "Good on ya for finishing that project!",
+        "quiz": {
+            "question": "What does 'good on ya' express?",
+            "explanation": "Good on ya is a way to congratulate someone or say well done.",
+            "choices": [
+                {
+                    "text": "Criticism",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Congratulations; well done",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Confusion",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tommo",
+        "meaning": "Tomorrow",
+        "example": "I'll see you tommo at the servo.",
+        "quiz": {
+            "question": "What does 'tommo' mean?",
+            "explanation": "Tommo is Australian slang for tomorrow.",
+            "choices": [
+                {
+                    "text": "Today",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Tomorrow",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Yesterday",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Defo",
+        "meaning": "Definitely",
+        "example": "That's defo the best idea we've had.",
+        "quiz": {
+            "question": "What does 'defo' mean?",
+            "explanation": "Defo is short for definitely.",
+            "choices": [
+                {
+                    "text": "Maybe",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Definitely",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Defensive",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Heaps good",
+        "meaning": "Really good; excellent",
+        "example": "That movie was heaps good!",
+        "quiz": {
+            "question": "If something is 'heaps good', what does that mean?",
+            "explanation": "Heaps good means really good or excellent.",
+            "choices": [
+                {
+                    "text": "Very bad",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Really good",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Okay",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Flat out",
+        "meaning": "Very busy; working hard",
+        "example": "I'm flat out at work this week.",
+        "quiz": {
+            "question": "If someone is 'flat out', what are they?",
+            "explanation": "Flat out means very busy or working at maximum capacity.",
+            "choices": [
+                {
+                    "text": "Relaxing",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very busy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sleeping",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Too easy",
+        "meaning": "No problem; it's simple",
+        "example": "Can you help me move? Too easy, mate!",
+        "quiz": {
+            "question": "What does 'too easy' mean?",
+            "explanation": "Too easy means no problem or it's simple to do.",
+            "choices": [
+                {
+                    "text": "Too difficult",
+                    "isCorrect": false
+                },
+                {
+                    "text": "No problem; simple",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Impossible",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Servo",
+        "meaning": "Service station; petrol station",
+        "example": "We need to stop at the servo for fuel.",
+        "quiz": {
+            "question": "What is a 'servo'?",
+            "explanation": "Servo is short for service station - a petrol/gas station.",
+            "choices": [
+                {
+                    "text": "A restaurant",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A petrol station",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A park",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bottlo",
+        "meaning": "Bottle shop; liquor store",
+        "example": "I'm heading to the bottlo to grab some beer.",
+        "quiz": {
+            "question": "What is a 'bottlo'?",
+            "explanation": "Bottlo is short for bottle shop - a liquor store.",
+            "choices": [
+                {
+                    "text": "A bottle factory",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A liquor store",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A recycling center",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Brekkie",
+        "meaning": "Breakfast",
+        "example": "Let's grab brekkie before work.",
+        "quiz": {
+            "question": "What is 'brekkie'?",
+            "explanation": "Brekkie is Australian slang for breakfast.",
+            "choices": [
+                {
+                    "text": "Lunch",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Breakfast",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A break",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Barbie",
+        "meaning": "Barbecue",
+        "example": "We're having a barbie on Saturday arvo.",
+        "quiz": {
+            "question": "If someone invites you to a 'barbie', what are they inviting you to?",
+            "explanation": "Barbie is short for barbecue - an outdoor cooking event.",
+            "choices": [
+                {
+                    "text": "A doll party",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A barbecue",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A bar",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Maccas",
+        "meaning": "McDonald's",
+        "example": "Let's get Maccas for dinner tonight.",
+        "quiz": {
+            "question": "What is 'Maccas'?",
+            "explanation": "Maccas is the Australian nickname for McDonald's.",
+            "choices": [
+                {
+                    "text": "A type of kangaroo",
+                    "isCorrect": false
+                },
+                {
+                    "text": "McDonald's",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A beach",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Footy",
+        "meaning": "Australian rules football (or rugby)",
+        "example": "We're watching the footy tonight at the pub.",
+        "quiz": {
+            "question": "What is 'footy'?",
+            "explanation": "Footy refers to Australian rules football or rugby.",
+            "choices": [
+                {
+                    "text": "Soccer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Australian rules football",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Basketball",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dunny",
+        "meaning": "Toilet",
+        "example": "Where's the dunny in this place?",
+        "quiz": {
+            "question": "What is a 'dunny'?",
+            "explanation": "Dunny is Australian slang for toilet.",
+            "choices": [
+                {
+                    "text": "A garage",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A toilet",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A basement",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Esky",
+        "meaning": "Portable cooler for drinks",
+        "example": "Don't forget to bring the esky to the beach.",
+        "quiz": {
+            "question": "What is an 'esky'?",
+            "explanation": "An esky is a portable cooler used to keep drinks cold.",
+            "choices": [
+                {
+                    "text": "A type of dog",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A portable cooler",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A tent",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Thongs",
+        "meaning": "Flip-flops; sandals",
+        "example": "Just wearing thongs to the beach today.",
+        "quiz": {
+            "question": "In Australia, what are 'thongs'?",
+            "explanation": "In Australia, thongs are flip-flops or sandals, not underwear.",
+            "choices": [
+                {
+                    "text": "Underwear",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Flip-flops; sandals",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Socks",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Ute",
+        "meaning": "Pickup truck; utility vehicle",
+        "example": "He loaded the ute and drove off to the farm.",
+        "quiz": {
+            "question": "What is a 'ute'?",
+            "explanation": "A ute is a pickup truck or utility vehicle.",
+            "choices": [
+                {
+                    "text": "A musical instrument",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A pickup truck",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of fruit",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Whinge",
+        "meaning": "Complain; whine",
+        "example": "Stop whingeing and get on with it!",
+        "quiz": {
+            "question": "What does 'whinge' mean?",
+            "explanation": "Whinge means to complain or whine about something.",
+            "choices": [
+                {
+                    "text": "To celebrate",
+                    "isCorrect": false
+                },
+                {
+                    "text": "To complain; whine",
+                    "isCorrect": true
+                },
+                {
+                    "text": "To exercise",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Yakka",
+        "meaning": "Work; hard work",
+        "example": "That's hard yakka in the hot sun.",
+        "quiz": {
+            "question": "What is 'yakka'?",
+            "explanation": "Yakka means work, especially hard physical work.",
+            "choices": [
+                {
+                    "text": "A game",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Work; hard work",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A type of food",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bloke",
+        "meaning": "Man; guy",
+        "example": "He's a decent bloke, you'll like him.",
+        "quiz": {
+            "question": "What is a 'bloke'?",
+            "explanation": "A bloke is simply a man or guy.",
+            "choices": [
+                {
+                    "text": "A woman",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A man; guy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A child",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sheila",
+        "meaning": "Woman (old-fashioned)",
+        "example": "That sheila over there is my sister.",
+        "quiz": {
+            "question": "What is a 'sheila'?",
+            "explanation": "Sheila is an old-fashioned Australian term for a woman.",
+            "choices": [
+                {
+                    "text": "A man",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A woman",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A pet",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rooted",
+        "meaning": "Exhausted; broken",
+        "example": "I'm absolutely rooted after that run.",
+        "quiz": {
+            "question": "If someone says they're 'rooted', what do they mean?",
+            "explanation": "Rooted means exhausted or completely worn out (can also mean broken).",
+            "choices": [
+                {
+                    "text": "Energetic",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Exhausted; broken",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Happy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chockers",
+        "meaning": "Very full; packed",
+        "example": "The pub was chockers last night!",
+        "quiz": {
+            "question": "If a place is 'chockers', what does that mean?",
+            "explanation": "Chockers means very full or packed with people.",
+            "choices": [
+                {
+                    "text": "Empty",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very full; packed",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Closed",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Tucker",
+        "meaning": "Food",
+        "example": "There's plenty of tucker for everyone at the barbie.",
+        "quiz": {
+            "question": "What is 'tucker'?",
+            "explanation": "Tucker is Australian slang for food.",
+            "choices": [
+                {
+                    "text": "A truck",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Food",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Money",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Lollies",
+        "meaning": "Sweets; candy",
+        "example": "The kids want some lollies from the shop.",
+        "quiz": {
+            "question": "What are 'lollies'?",
+            "explanation": "Lollies are sweets or candy in Australian English.",
+            "choices": [
+                {
+                    "text": "Toys",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sweets; candy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Lollipops only",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Cuppa",
+        "meaning": "Cup of tea or coffee",
+        "example": "Come in and have a cuppa.",
+        "quiz": {
+            "question": "If someone offers you a 'cuppa', what are they offering?",
+            "explanation": "A cuppa is a cup of tea or coffee.",
+            "choices": [
+                {
+                    "text": "A meal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A cup of tea or coffee",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A beer",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sanga",
+        "meaning": "Sandwich",
+        "example": "I'm just having a sanga for lunch.",
+        "quiz": {
+            "question": "What is a 'sanga'?",
+            "explanation": "Sanga is Australian slang for sandwich.",
+            "choices": [
+                {
+                    "text": "A drink",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A sandwich",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A song",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bickie",
+        "meaning": "Biscuit; cookie",
+        "example": "Grab a bickie with your tea.",
+        "quiz": {
+            "question": "What is a 'bickie'?",
+            "explanation": "Bickie is short for biscuit or cookie.",
+            "choices": [
+                {
+                    "text": "A bicycle",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A biscuit; cookie",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A bird",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chook",
+        "meaning": "Chicken",
+        "example": "We're having roast chook for dinner.",
+        "quiz": {
+            "question": "What is a 'chook'?",
+            "explanation": "Chook is Australian slang for chicken.",
+            "choices": [
+                {
+                    "text": "A duck",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A chicken",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A turkey",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Snag",
+        "meaning": "Sausage",
+        "example": "Throw a few snags on the barbie.",
+        "quiz": {
+            "question": "What is a 'snag' in Australian slang?",
+            "explanation": "A snag is a sausage, especially one cooked on the barbecue.",
+            "choices": [
+                {
+                    "text": "A problem",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A sausage",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A snake",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Strewth",
+        "meaning": "Expression of surprise (like 'oh my')",
+        "example": "Strewth! That's a big spider!",
+        "quiz": {
+            "question": "What does 'strewth' express?",
+            "explanation": "Strewth is an expression of surprise or amazement.",
+            "choices": [
+                {
+                    "text": "Happiness",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Surprise; amazement",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Anger",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "You beauty",
+        "meaning": "Expression of joy or excitement",
+        "example": "You beauty! We got the tickets!",
+        "quiz": {
+            "question": "When would you say 'you beauty'?",
+            "explanation": "You beauty is an expression of joy, excitement, or approval.",
+            "choices": [
+                {
+                    "text": "When sad",
+                    "isCorrect": false
+                },
+                {
+                    "text": "When excited or happy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "When angry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    }
+]

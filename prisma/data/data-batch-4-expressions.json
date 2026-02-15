@@ -1,0 +1,1106 @@
+[
+    {
+        "phrase": "She'll be apples",
+        "meaning": "Everything will be fine",
+        "example": "Don't worry about it, she'll be apples.",
+        "quiz": {
+            "question": "What does 'she'll be apples' mean?",
+            "explanation": "She'll be apples means everything will be fine or okay.",
+            "choices": [
+                {
+                    "text": "There will be fruit",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Everything will be fine",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Something is wrong",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Hard yakka",
+        "meaning": "Hard work",
+        "example": "Building that deck was hard yakka.",
+        "quiz": {
+            "question": "What is 'hard yakka'?",
+            "explanation": "Hard yakka means hard work or strenuous labor.",
+            "choices": [
+                {
+                    "text": "Easy work",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Hard work",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A hard surface",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Have a go",
+        "meaning": "Try it; attempt something",
+        "example": "Come on, have a go! You might surprise yourself.",
+        "quiz": {
+            "question": "What does 'have a go' mean?",
+            "explanation": "Have a go means to try something or make an attempt.",
+            "choices": [
+                {
+                    "text": "Give up",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Try it; attempt",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Go away",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pull your head in",
+        "meaning": "Mind your own business; stop interfering",
+        "example": "Just pull your head in and let me handle it.",
+        "quiz": {
+            "question": "What does 'pull your head in' mean?",
+            "explanation": "Pull your head in means to mind your own business or stop interfering.",
+            "choices": [
+                {
+                    "text": "Stretch your neck",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Mind your own business",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Come closer",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Stone the crows",
+        "meaning": "Expression of surprise or disbelief",
+        "example": "Stone the crows! I didn't expect that!",
+        "quiz": {
+            "question": "What does 'stone the crows' express?",
+            "explanation": "Stone the crows is an expression of surprise or amazement.",
+            "choices": [
+                {
+                    "text": "Anger at birds",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Surprise; disbelief",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sadness",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Fair go",
+        "meaning": "A fair chance or opportunity",
+        "example": "Give him a fair go, he's only just started.",
+        "quiz": {
+            "question": "What does 'fair go' mean?",
+            "explanation": "Fair go means a fair chance or reasonable opportunity.",
+            "choices": [
+                {
+                    "text": "An unfair situation",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A fair chance",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A carnival",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Give it a burl",
+        "meaning": "Give it a try",
+        "example": "Never done it before, but I'll give it a burl.",
+        "quiz": {
+            "question": "What does 'give it a burl' mean?",
+            "explanation": "Give it a burl means to give something a try or attempt.",
+            "choices": [
+                {
+                    "text": "Throw it away",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Give it a try",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Spin it around",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Not on",
+        "meaning": "Unacceptable; not okay",
+        "example": "That behavior is just not on, mate.",
+        "quiz": {
+            "question": "What does 'not on' mean?",
+            "explanation": "Not on means unacceptable or not okay.",
+            "choices": [
+                {
+                    "text": "Turned off",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Unacceptable",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Acceptable",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Hit the frog and toad",
+        "meaning": "Hit the road; leave",
+        "example": "Better hit the frog and toad if we want to get there on time.",
+        "quiz": {
+            "question": "What does 'hit the frog and toad' mean?",
+            "explanation": "Hit the frog and toad is rhyming slang for hit the road (leave/depart).",
+            "choices": [
+                {
+                    "text": "Hit an animal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Hit the road; leave",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Start a journey",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Crack the shits",
+        "meaning": "Get angry or upset",
+        "example": "He cracked the shits when he found out.",
+        "quiz": {
+            "question": "What does 'crack the shits' mean?",
+            "explanation": "Crack the shits means to get very angry or upset.",
+            "choices": [
+                {
+                    "text": "Feel happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Get angry",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Break something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Lose the plot",
+        "meaning": "Go crazy; lose control",
+        "example": "He completely lost the plot when they cancelled the game.",
+        "quiz": {
+            "question": "What does 'lose the plot' mean?",
+            "explanation": "Lose the plot means to go crazy, lose control, or become irrational.",
+            "choices": [
+                {
+                    "text": "Lose a book",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Go crazy; lose control",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Find a solution",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Spit the dummy",
+        "meaning": "Throw a tantrum; get upset",
+        "example": "Don't spit the dummy just because you didn't win.",
+        "quiz": {
+            "question": "What does 'spit the dummy' mean?",
+            "explanation": "Spit the dummy means to throw a tantrum or get very upset (like a baby spitting out a pacifier).",
+            "choices": [
+                {
+                    "text": "Stay calm",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Throw a tantrum",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Spit out food",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Carry on like a pork chop",
+        "meaning": "Make a fuss; behave badly",
+        "example": "Stop carrying on like a pork chop!",
+        "quiz": {
+            "question": "What does 'carry on like a pork chop' mean?",
+            "explanation": "Carry on like a pork chop means to make a fuss or behave badly.",
+            "choices": [
+                {
+                    "text": "Behave well",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Make a fuss; behave badly",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cook meat",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Mad as a cut snake",
+        "meaning": "Very angry or crazy",
+        "example": "He was mad as a cut snake after losing his wallet.",
+        "quiz": {
+            "question": "If someone is 'mad as a cut snake', what are they?",
+            "explanation": "Mad as a cut snake means very angry or crazy.",
+            "choices": [
+                {
+                    "text": "Very calm",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very angry or crazy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Very happy",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Off like a bucket of prawns",
+        "meaning": "Gone bad; spoiled",
+        "example": "That milk's off like a bucket of prawns in the sun!",
+        "quiz": {
+            "question": "What does 'off like a bucket of prawns' mean?",
+            "explanation": "Off like a bucket of prawns means something has gone bad or spoiled.",
+            "choices": [
+                {
+                    "text": "Very fresh",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Gone bad; spoiled",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Very quick",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Full as a goog",
+        "meaning": "Very full (after eating)",
+        "example": "I'm full as a goog after that massive meal.",
+        "quiz": {
+            "question": "What does 'full as a goog' mean?",
+            "explanation": "Full as a goog means very full, having eaten a lot (goog = egg).",
+            "choices": [
+                {
+                    "text": "Still hungry",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very full after eating",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Empty",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Fit as a Mallee bull",
+        "meaning": "Very fit and healthy",
+        "example": "At 70, he's still fit as a Mallee bull.",
+        "quiz": {
+            "question": "If someone is 'fit as a Mallee bull', what are they?",
+            "explanation": "Fit as a Mallee bull means very fit, strong, and healthy.",
+            "choices": [
+                {
+                    "text": "Very weak",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very fit and healthy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Sick",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dry as a dead dingo's donger",
+        "meaning": "Extremely dry",
+        "example": "My throat's as dry as a dead dingo's donger!",
+        "quiz": {
+            "question": "What does 'dry as a dead dingo's donger' mean?",
+            "explanation": "Dry as a dead dingo's donger means extremely dry (often referring to thirst or weather).",
+            "choices": [
+                {
+                    "text": "Very wet",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely dry",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Moderately dry",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Flat out like a lizard drinking",
+        "meaning": "Extremely busy",
+        "example": "I've been flat out like a lizard drinking all week.",
+        "quiz": {
+            "question": "If you're 'flat out like a lizard drinking', what are you?",
+            "explanation": "Flat out like a lizard drinking means extremely busy, working at full capacity.",
+            "choices": [
+                {
+                    "text": "Very relaxed",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely busy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Drinking water",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Wouldn't shout if a shark bit him",
+        "meaning": "Very stingy; won't buy drinks",
+        "example": "He wouldn't shout if a shark bit him - never buys a round.",
+        "quiz": {
+            "question": "What does 'wouldn't shout if a shark bit him' mean?",
+            "explanation": "This means someone is very stingy and won't buy drinks for others ('shout' = buy a round).",
+            "choices": [
+                {
+                    "text": "Very generous",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very stingy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Very quiet",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Shout",
+        "meaning": "Buy a round of drinks",
+        "example": "It's my turn to shout - what's everyone having?",
+        "quiz": {
+            "question": "In Australian slang, what does 'shout' mean?",
+            "explanation": "Shout means to buy a round of drinks for everyone.",
+            "choices": [
+                {
+                    "text": "Yell loudly",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Buy a round of drinks",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Leave quickly",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Rack off",
+        "meaning": "Go away; leave",
+        "example": "Rack off, I'm busy!",
+        "quiz": {
+            "question": "What does 'rack off' mean?",
+            "explanation": "Rack off means go away or leave (often said rudely).",
+            "choices": [
+                {
+                    "text": "Come closer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Go away",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Organize something",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Piss off",
+        "meaning": "Go away (rude); or to annoy someone",
+        "example": "Piss off! / That really pisses me off.",
+        "quiz": {
+            "question": "What does 'piss off' mean?",
+            "explanation": "Piss off can mean go away (rude) or to annoy/anger someone.",
+            "choices": [
+                {
+                    "text": "Welcome",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Go away or annoy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Come here",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bugger off",
+        "meaning": "Go away",
+        "example": "Bugger off, I'm not interested!",
+        "quiz": {
+            "question": "What does 'bugger off' mean?",
+            "explanation": "Bugger off means go away (mildly rude).",
+            "choices": [
+                {
+                    "text": "Come here",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Go away",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Help me",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Get stuffed",
+        "meaning": "Go away; expression of rejection",
+        "example": "He asked me to work overtime again - I told him to get stuffed!",
+        "quiz": {
+            "question": "What does 'get stuffed' mean?",
+            "explanation": "Get stuffed is a rude way to tell someone to go away or express strong rejection.",
+            "choices": [
+                {
+                    "text": "Eat food",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Go away; get lost",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Get ready",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Take a squiz",
+        "meaning": "Take a look",
+        "example": "Take a squiz at this photo!",
+        "quiz": {
+            "question": "What does 'take a squiz' mean?",
+            "explanation": "Take a squiz means to take a look or have a glance at something.",
+            "choices": [
+                {
+                    "text": "Take a photo",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Take a look",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Take a quiz",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sticky beak",
+        "meaning": "To pry or be nosy (verb)",
+        "example": "Stop sticky beaking and mind your own business!",
+        "quiz": {
+            "question": "What does 'sticky beak' mean as a verb?",
+            "explanation": "To sticky beak means to pry into others' business or be nosy.",
+            "choices": [
+                {
+                    "text": "To stick something",
+                    "isCorrect": false
+                },
+                {
+                    "text": "To pry; be nosy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "To clean",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Sus out",
+        "meaning": "Figure out; investigate",
+        "example": "I'll sus out what time the party starts.",
+        "quiz": {
+            "question": "What does 'sus out' mean?",
+            "explanation": "Sus out means to figure out, investigate, or check something.",
+            "choices": [
+                {
+                    "text": "Suspect someone",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Figure out; investigate",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Give up",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Suss",
+        "meaning": "Suspicious; questionable",
+        "example": "That deal sounds a bit suss to me.",
+        "quiz": {
+            "question": "What does 'suss' mean?",
+            "explanation": "Suss means suspicious, questionable, or dodgy.",
+            "choices": [
+                {
+                    "text": "Very good",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Suspicious; questionable",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Success",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dodgy",
+        "meaning": "Suspicious; unreliable; questionable",
+        "example": "That website looks dodgy - don't enter your details.",
+        "quiz": {
+            "question": "What does 'dodgy' mean?",
+            "explanation": "Dodgy means suspicious, unreliable, or of questionable quality.",
+            "choices": [
+                {
+                    "text": "Very reliable",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Suspicious; unreliable",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Expensive",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Bodgy",
+        "meaning": "Poor quality; makeshift",
+        "example": "That's a bodgy repair job if I've ever seen one.",
+        "quiz": {
+            "question": "What does 'bodgy' mean?",
+            "explanation": "Bodgy means poor quality, makeshift, or badly done.",
+            "choices": [
+                {
+                    "text": "High quality",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Poor quality; makeshift",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Related to the body",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Chuck a U-ey",
+        "meaning": "Make a U-turn",
+        "example": "Chuck a U-ey at the next intersection.",
+        "quiz": {
+            "question": "What does 'chuck a U-ey' mean?",
+            "explanation": "Chuck a U-ey means to make a U-turn while driving.",
+            "choices": [
+                {
+                    "text": "Throw something",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Make a U-turn",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Park the car",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Do a runner",
+        "meaning": "Leave without paying; escape",
+        "example": "He did a runner when the bill came!",
+        "quiz": {
+            "question": "What does 'do a runner' mean?",
+            "explanation": "Do a runner means to leave without paying or to escape quickly.",
+            "choices": [
+                {
+                    "text": "Go for a jog",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Leave without paying",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Run a business",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Dole bludger",
+        "meaning": "Person living on welfare without trying to work",
+        "example": "He's just a dole bludger living off the government.",
+        "quiz": {
+            "question": "What is a 'dole bludger'?",
+            "explanation": "Dole bludger is someone who lives on unemployment benefits without genuinely trying to find work.",
+            "choices": [
+                {
+                    "text": "A hard worker",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Someone living on welfare",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A wealthy person",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pull a swifty",
+        "meaning": "Trick someone; pull a fast one",
+        "example": "Don't try to pull a swifty on me!",
+        "quiz": {
+            "question": "What does 'pull a swifty' mean?",
+            "explanation": "Pull a swifty means to trick someone or pull a fast one.",
+            "choices": [
+                {
+                    "text": "Move quickly",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Trick someone",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Help someone",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Up yourself",
+        "meaning": "Conceited; full of yourself",
+        "example": "He's so up himself since he got that promotion.",
+        "quiz": {
+            "question": "What does 'up yourself' mean?",
+            "explanation": "Up yourself means conceited, arrogant, or full of yourself.",
+            "choices": [
+                {
+                    "text": "Very humble",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Conceited; arrogant",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Confused",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Big noter",
+        "meaning": "Show-off; braggart",
+        "example": "He's such a big noter, always talking about his car.",
+        "quiz": {
+            "question": "What is a 'big noter'?",
+            "explanation": "Big noter is a show-off or someone who brags a lot.",
+            "choices": [
+                {
+                    "text": "A modest person",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A show-off; braggart",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A note-taker",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Couldn't organize a piss-up in a brewery",
+        "meaning": "Completely incompetent at organizing",
+        "example": "He couldn't organize a piss-up in a brewery!",
+        "quiz": {
+            "question": "What does this phrase mean about someone?",
+            "explanation": "This means someone is completely incompetent at organizing things.",
+            "choices": [
+                {
+                    "text": "Very organized",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Completely incompetent",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Works at a brewery",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Get on the front foot",
+        "meaning": "Take initiative; be proactive",
+        "example": "We need to get on the front foot with this project.",
+        "quiz": {
+            "question": "What does 'get on the front foot' mean?",
+            "explanation": "Get on the front foot means to take initiative or be proactive (from cricket).",
+            "choices": [
+                {
+                    "text": "Step forward",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Take initiative; be proactive",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Give up",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "In like Flynn",
+        "meaning": "Successful; quickly accepted",
+        "example": "He mentioned he was a doctor and he was in like Flynn.",
+        "quiz": {
+            "question": "What does 'in like Flynn' mean?",
+            "explanation": "In like Flynn means to be quickly successful or accepted.",
+            "choices": [
+                {
+                    "text": "Rejected",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Successful; quickly accepted",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Confused",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Piece of piss",
+        "meaning": "Very easy",
+        "example": "That test was a piece of piss!",
+        "quiz": {
+            "question": "What does 'piece of piss' mean?",
+            "explanation": "Piece of piss means very easy or simple.",
+            "choices": [
+                {
+                    "text": "Very difficult",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very easy",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Disgusting",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Taking the piss",
+        "meaning": "Making fun of; joking",
+        "example": "Are you serious or just taking the piss?",
+        "quiz": {
+            "question": "What does 'taking the piss' mean?",
+            "explanation": "Taking the piss means making fun of someone or joking around.",
+            "choices": [
+                {
+                    "text": "Being serious",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Making fun; joking",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Stealing",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "On the piss",
+        "meaning": "Out drinking alcohol",
+        "example": "We're going on the piss tonight!",
+        "quiz": {
+            "question": "What does 'on the piss' mean?",
+            "explanation": "On the piss means out drinking alcohol, usually heavily.",
+            "choices": [
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Out drinking alcohol",
+                    "isCorrect": true
+                },
+                {
+                    "text": "At work",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Piss weak",
+        "meaning": "Very weak; pathetic",
+        "example": "That excuse was piss weak, mate.",
+        "quiz": {
+            "question": "What does 'piss weak' mean?",
+            "explanation": "Piss weak means very weak, pathetic, or inadequate.",
+            "choices": [
+                {
+                    "text": "Very strong",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Very weak; pathetic",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Wet",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pissed",
+        "meaning": "Drunk (not angry)",
+        "example": "He was completely pissed by midnight.",
+        "quiz": {
+            "question": "In Australian slang, what does 'pissed' mean?",
+            "explanation": "In Australian slang, pissed means drunk (not angry like in American English).",
+            "choices": [
+                {
+                    "text": "Angry",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Drunk",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tired",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Pissed off",
+        "meaning": "Angry; annoyed",
+        "example": "I'm really pissed off about the cancelled flight.",
+        "quiz": {
+            "question": "What does 'pissed off' mean?",
+            "explanation": "Pissed off means angry or annoyed.",
+            "choices": [
+                {
+                    "text": "Happy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Angry; annoyed",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Drunk",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Maggot",
+        "meaning": "Extremely drunk",
+        "example": "He was absolutely maggot last night.",
+        "quiz": {
+            "question": "What does 'maggot' mean in drinking context?",
+            "explanation": "Maggot means extremely drunk.",
+            "choices": [
+                {
+                    "text": "Sober",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Extremely drunk",
+                    "isCorrect": true
+                },
+                {
+                    "text": "An insect",
+                    "isCorrect": false
+                }
+            ]
+        }
+    },
+    {
+        "phrase": "Munted",
+        "meaning": "Broken; destroyed; very drunk",
+        "example": "My phone is munted. / He was completely munted.",
+        "quiz": {
+            "question": "What does 'munted' mean?",
+            "explanation": "Munted means broken, destroyed, or very drunk/intoxicated.",
+            "choices": [
+                {
+                    "text": "Brand new",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Broken; very drunk",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Delicious",
+                    "isCorrect": false
+                }
+            ]
+        }
+    }
+]
