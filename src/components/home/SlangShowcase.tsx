@@ -4,59 +4,87 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { type SlangTermBrief } from "@/hooks/useSlangSearch";
 
+// Featured slang terms - hardcoded for instant loading
+const FEATURED_SLANGS: SlangTermBrief[] = [
+    {
+        id: "1",
+        phrase: "G'day",
+        meaning: "Hello; good day",
+        example: "G'day mate! How are you going?"
+    },
+    {
+        id: "2",
+        phrase: "Fair dinkum",
+        meaning: "Genuine; really true",
+        example: "That's fair dinkum? I can't believe it!"
+    },
+    {
+        id: "3",
+        phrase: "She'll be right",
+        meaning: "It will be okay; no problem",
+        example: "Don't stress about it, she'll be right."
+    },
+    {
+        id: "4",
+        phrase: "Arvo",
+        meaning: "Afternoon",
+        example: "See you this arvo at the beach."
+    },
+    {
+        id: "5",
+        phrase: "Barbie",
+        meaning: "Barbecue",
+        example: "We're having a barbie on Saturday arvo."
+    },
+    {
+        id: "6",
+        phrase: "Ripper",
+        meaning: "Excellent; great",
+        example: "That was a ripper of a game last night!"
+    },
+    {
+        id: "7",
+        phrase: "Yeah nah",
+        meaning: "No (after consideration)",
+        example: "Yeah nah, I don't think that's a good idea."
+    },
+    {
+        id: "8",
+        phrase: "Crikey",
+        meaning: "Expression of surprise",
+        example: "Crikey! That was close!"
+    },
+    {
+        id: "9",
+        phrase: "Brekkie",
+        meaning: "Breakfast",
+        example: "Let's grab brekkie before work."
+    },
+    {
+        id: "10",
+        phrase: "Stoked",
+        meaning: "Very pleased; excited",
+        example: "I'm stoked we won the match!"
+    }
+];
+
 export default function SlangShowcase() {
-    const [terms, setTerms] = useState<SlangTermBrief[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [loading, setLoading] = useState(true);
     const [fade, setFade] = useState(true); // Control fade state for transitions
 
     useEffect(() => {
-        let mounted = true;
-        async function fetchFeatured() {
-            try {
-                // Fetch a random page to get variety. 
-                // Since we don't know total, we'll just fetch a larger page size (e.g. 10) from page 1 for now.
-                // Ideally API supports random sorting, but for now this works.
-                const res = await fetch("/api/slang?pageSize=10");
-                if (!res.ok) return;
-                const data = await res.json();
-                if (mounted && data.items && data.items.length > 0) {
-                    // Simple shuffle for variety on client
-                    const shuffled = [...data.items].sort(() => 0.5 - Math.random());
-                    setTerms(shuffled);
-                }
-            } catch (error) {
-                console.error(error);
-            } finally {
-                if (mounted) setLoading(false);
-            }
-        }
-        fetchFeatured();
-        return () => {
-            mounted = false;
-        };
-    }, []);
-
-    useEffect(() => {
-        if (terms.length <= 1) return;
         const interval = setInterval(() => {
             setFade(false); // Start fade out
             setTimeout(() => {
-                setCurrentIndex((prev) => (prev + 1) % terms.length);
+                setCurrentIndex((prev) => (prev + 1) % FEATURED_SLANGS.length);
                 setFade(true); // Start fade in
             }, 500); // Wait for fade out to complete (match duration-500)
         }, 5000); // 5 seconds per word
 
         return () => clearInterval(interval);
-    }, [terms.length]);
+    }, []);
 
-    if (loading) {
-        return <div className="h-64 animate-pulse rounded-xl bg-zinc-50 dark:bg-zinc-900/50" />;
-    }
-
-    if (terms.length === 0) return null;
-
-    const term = terms[currentIndex];
+    const term = FEATURED_SLANGS[currentIndex];
 
     return (
         <div className="relative flex min-h-[300px] flex-col items-center justify-center overflow-hidden rounded-2xl border border-zinc-100 bg-white/50 px-4 py-12 text-center shadow-sm backdrop-blur-sm transition-all dark:border-zinc-800 dark:bg-zinc-900/30 sm:px-12">
@@ -92,7 +120,7 @@ export default function SlangShowcase() {
             </div>
 
             <div className="mt-12 flex items-center justify-center gap-2">
-                {terms.map((_, idx) => (
+                {FEATURED_SLANGS.map((_, idx) => (
                     <button
                         key={idx}
                         onClick={() => {
@@ -103,8 +131,8 @@ export default function SlangShowcase() {
                             }, 300);
                         }}
                         className={`h-1.5 rounded-full transition-all duration-300 ${idx === currentIndex
-                                ? "w-8 bg-indigo-600 dark:bg-indigo-400"
-                                : "w-1.5 bg-zinc-300 hover:bg-zinc-400 dark:bg-zinc-700 dark:hover:bg-zinc-600"
+                            ? "w-8 bg-indigo-600 dark:bg-indigo-400"
+                            : "w-1.5 bg-zinc-300 hover:bg-zinc-400 dark:bg-zinc-700 dark:hover:bg-zinc-600"
                             }`}
                         aria-label={`Go to slide ${idx + 1}`}
                     />

@@ -1,7 +1,19 @@
+"use client";
+
+import { useEffect } from "react";
 import Link from "next/link";
 import SlangShowcase from "@/components/home/SlangShowcase";
 
 export default function HomePage() {
+  // Preload dictionary and quiz data in the background
+  useEffect(() => {
+    // Preload first page of slang dictionary
+    fetch('/api/slang?page=1').catch(() => { });
+
+    // Preload quiz data
+    fetch('/api/quiz').catch(() => { });
+  }, []);
+
   return (
     <div className="flex flex-col gap-8 py-8">
       <section className="text-center">
