@@ -87,7 +87,7 @@ export default function SlangShowcase() {
     const term = FEATURED_SLANGS[currentIndex];
 
     return (
-        <div className="relative flex min-h-[300px] flex-col items-center justify-center overflow-hidden rounded-2xl border border-zinc-100 bg-white/50 px-4 py-12 text-center shadow-sm backdrop-blur-sm transition-all dark:border-zinc-800 dark:bg-zinc-900/30 sm:px-12">
+        <div className="relative flex min-h-[300px] flex-col items-center justify-center overflow-hidden rounded-2xl bg-white/20 px-4 py-12 text-center backdrop-blur-sm transition-all dark:bg-zinc-900/10 sm:px-12">
             {/* Background decorative blob */}
             <div className={`absolute -top-24 -left-24 h-64 w-64 rounded-full bg-indigo-500/10 blur-3xl transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-50'}`} />
             <div className={`absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-blue-500/10 blur-3xl transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-50'}`} />
