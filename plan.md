@@ -10,10 +10,10 @@ todos:
     status: done
   - id: remove-redundant-nav-home
     content: 移除 Navbar 中的 Home 链接，仅保留 Logo 作为首页入口
-    status: pending
+    status: done
   - id: implement-admin-auth
     content: 集成 NextAuth.js，实现 Admin 登录页、凭证校验及路由保护
-    status: pending
+    status: done
 isProject: false
 ---
 
