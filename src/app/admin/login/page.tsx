@@ -9,22 +9,30 @@ export default function AdminLoginPage() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
     const router = useRouter();
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setError("");
+        setIsLoading(true);
 
-        const res = await signIn("credentials", {
-            username,
-            password,
-            redirect: false,
-        });
+        try {
+            const res = await signIn("credentials", {
+                username,
+                password,
+                redirect: false,
+            });
 
-        if (res?.error) {
-            setError("Invalid credentials");
-        } else {
-            router.push("/admin");
+            if (res?.error) {
+                setError("Invalid credentials");
+            } else if (res?.ok) {
+                router.push("/admin");
+            }
+        } catch (err) {
+            setError("An error occurred. Please try again.");
+        } finally {
+            setIsLoading(false);
         }
     };
 
@@ -39,19 +47,22 @@ export default function AdminLoginPage() {
                         label="Username"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
+                        disabled={isLoading}
                     />
                     <Input
                         label="Password"
                         type="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
+                        disabled={isLoading}
                     />
                     {error && <p className="text-sm text-red-500">{error}</p>}
                     <button
                         type="submit"
-                        className="w-full rounded-md bg-zinc-900 px-4 py-2 font-medium text-white hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
+                        disabled={isLoading}
+                        className="w-full rounded-md bg-zinc-900 px-4 py-2 font-medium text-white hover:bg-zinc-800 disabled:opacity-50 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
                     >
-                        Sign In
+                        {isLoading ? "Signing in..." : "Sign In"}
                     </button>
                 </form>
             </div>
