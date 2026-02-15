@@ -1,5 +1,6 @@
 "use client";
 
+import { useCallback } from "react";
 import { useSlangAdmin, type CreateSlangInput, type UpdateSlangInput } from "@/hooks/useSlangAdmin";
 import SlangAdminList from "@/components/admin/slang/SlangAdminList";
 import SlangAdminForm from "@/components/admin/slang/SlangAdminForm";
@@ -21,18 +22,18 @@ export default function AdminSlangPage() {
     remove,
   } = useSlangAdmin(1, 20);
 
-  const handleEdit = (id: string, data: { phrase: string; meaning: string; example?: string }) => {
+  const handleEdit = useCallback((id: string, data: { phrase: string; meaning: string; example?: string }) => {
     setEditingId(id);
     setEditData(data);
-  };
+  }, []);
 
-  const handleCreate = async (data: CreateSlangInput | UpdateSlangInput) => {
+  const handleCreate = useCallback(async (data: CreateSlangInput | UpdateSlangInput) => {
     await create(data as CreateSlangInput);
-  };
+  }, [create]);
 
-  const handleUpdate = async (data: CreateSlangInput | UpdateSlangInput) => {
+  const handleUpdate = useCallback(async (data: CreateSlangInput | UpdateSlangInput) => {
     if (editingId) await update(editingId, data as UpdateSlangInput);
-  };
+  }, [editingId, update]);
 
   return (
     <div className="space-y-8 py-8">

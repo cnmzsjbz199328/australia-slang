@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Button from "@/components/common/Button";
 import Input from "@/components/common/Input";
 import type { CreateSlangInput, UpdateSlangInput } from "@/hooks/useSlangAdmin";
@@ -23,6 +23,16 @@ export default function SlangAdminForm({
   const [example, setExample] = useState(initial?.example ?? "");
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+
+  // Sync form state when initial prop changes (for edit mode)
+  useEffect(() => {
+    if (mode === "edit" && initial) {
+      setPhrase(initial.phrase ?? "");
+      setMeaning(initial.meaning ?? "");
+      setExample(initial.example ?? "");
+      setError(null);
+    }
+  }, [mode, initial]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
