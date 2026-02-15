@@ -96,12 +96,6 @@ export default function SlangShowcase() {
                 className={`flex flex-col items-center transition-all duration-700 ease-in-out ${fade ? "translate-y-0 opacity-100 scale-100" : "translate-y-4 opacity-0 scale-95"
                     }`}
             >
-                <div className="mb-6">
-                    <span className="inline-block rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:bg-indigo-900/30 dark:text-indigo-400">
-                        Daily Slang
-                    </span>
-                </div>
-
                 <h2 className="text-5xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-7xl">
                     {term.phrase}
                 </h2>
