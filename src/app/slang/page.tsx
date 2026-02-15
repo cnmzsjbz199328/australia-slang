@@ -19,11 +19,7 @@ export default function SlangPage() {
 
   return (
     <div className="flex flex-col gap-6 py-6">
-      <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
-        Slang Dictionary
-      </h1>
       <Input
-        label="Search"
         placeholder="Search by phrase or meaning..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}

@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple black and white kangaroo icon -->
+  <rect width="512" height="512" rx="80" fill="#FFFFFF"/>
+  
+  <!-- Kangaroo silhouette in black - simplified minimalist style -->
+  <g fill="#000000" transform="translate(256, 256)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="55" ry="75"/>
+    
+    <!-- Head -->
+    <circle cx="-8" cy="-58" r="42"/>
+    
+    <!-- Ear -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" transform="rotate(-15 -18 -90)"/>
+    
+    <!-- Snout -->
+    <ellipse cx="-23" cy="-48" rx="22" ry="16"/>
+    
+    <!-- Arms -->
+    <ellipse cx="-32" cy="2" rx="10" ry="32" transform="rotate(-25 -32 2)"/>
+    
+    <!-- Tail -->
+    <path d="M 40 55 Q 80 75 95 95 Q 98 98 95 101 Q 75 88 45 65 Z" />
+    
+    <!-- Back leg (standing) -->
+    <ellipse cx="22" cy="85" rx="16" ry="42"/>
+    
+    <!-- Front leg (bent) -->
+    <path d="M -18 75 Q -22 95 -13 108 L -8 108 Q -13 95 -8 75 Z"/>
+    
+    <!-- Foot -->
+    <ellipse cx="22" cy="128" rx="32" ry="13"/>
+    <ellipse cx="-13" cy="112" rx="22" ry="10"/>
+  </g>
+</svg>
