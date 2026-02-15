@@ -16,7 +16,7 @@ export default function Input({ label, error, className = "", id, ...props }: In
       )}
       <input
         id={inputId}
-        className={`w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-hidden dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100 ${error ? "border-red-500" : ""} ${className}`}
+        className={`w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-zinc-900 placeholder-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100 ${error ? "border-red-500" : ""} ${className}`}
         {...props}
       />
       {error && <span className="text-sm text-red-600 dark:text-red-400">{error}</span>}

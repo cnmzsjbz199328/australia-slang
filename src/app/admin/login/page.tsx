@@ -30,25 +30,19 @@ export default function AdminLoginPage() {
 
     return (
         <div className="flex min-h-[60vh] flex-col items-center justify-center py-12">
-            <div className="relative z-10 w-full max-w-md rounded-lg border border-zinc-200 bg-white p-8 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+            <div className="w-full max-w-md rounded-lg border border-zinc-200 bg-white p-8 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
                 <h1 className="mb-6 text-center text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                     Admin Login
                 </h1>
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <Input
                         label="Username"
-                        name="username"
-                        type="text"
-                        autoComplete="username"
-                        autoFocus
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     />
                     <Input
                         label="Password"
-                        name="password"
                         type="password"
-                        autoComplete="current-password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
