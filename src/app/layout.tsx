@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import AuthProvider from "@/components/providers/AuthProvider";
 import AppLayout from "@/components/layout/AppLayout";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,44 +15,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Australia Slang",
-  description: "Learn Australian slang – dictionary and quiz",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Australia Slang",
+    template: "%s | Australia Slang",
+  },
+  description: "Learn Australian slang – an interactive dictionary and quiz.",
   icons: {
-    icon: [
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    apple: '/icon.svg',
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: "/icon.svg",
   },
-  manifest: '/manifest.json',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
-  // Open Graph metadata for social media sharing
+  manifest: "/manifest.json",
   openGraph: {
-    type: 'website',
-    locale: 'en_AU',
-    url: 'https://australiaslang.futurebutnow.xyz', // 替换为你的实际域名
-    siteName: 'Australia Slang',
-    title: 'Australia Slang',
-    description: 'Learn Australian slang – dictionary and quiz',
-    images: [
-      {
-        url: '/icon.svg', // 使用你的图标作为 OG 图片
-        width: 1200,
-        height: 630,
-        alt: 'Australia Slang Logo',
-      },
-    ],
+    type: "website",
+    locale: "en_AU",
+    url: SITE_URL,
+    siteName: "Australia Slang",
+    title: "Australia Slang",
+    description: "Learn Australian slang – an interactive dictionary and quiz.",
   },
-  // Twitter Card metadata
   twitter: {
-    card: 'summary',
-    title: 'Australia Slang',
-    description: 'Learn Australian slang – dictionary and quiz',
-    images: ['/icon.svg'],
+    card: "summary",
+    title: "Australia Slang",
+    description: "Learn Australian slang – an interactive dictionary and quiz.",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -63,9 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <AuthProvider>
-          <AppLayout>{children}</AppLayout>
-        </AuthProvider>
+        <AppLayout>{children}</AppLayout>
       </body>
     </html>
   );

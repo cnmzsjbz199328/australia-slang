@@ -1,11 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Book, Trophy, User } from "lucide-react";
+import { Book, Trophy } from "lucide-react";
 
 const navLinks = [
   { href: "/slang", label: "Slang Dictionary", icon: Book, shortLabel: "Dictionary" },
   { href: "/quiz", label: "Quiz", icon: Trophy, shortLabel: "Quiz" },
-  { href: "/admin", label: "Admin", icon: User, shortLabel: "Admin" },
 ];
 
 export default function Navbar() {

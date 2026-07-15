@@ -1,83 +1,88 @@
 # Australia Slang
 
-Australian slang dictionary and quiz app – Next.js full-stack, deployable on Vercel.
+Australian slang dictionary and quiz – a **fully static, front-end-only** Next.js app. No database, no backend, no auth: all content lives in versioned JSON and the site exports to plain HTML/CSS/JS.
 
 ## Stack
 
-- **Frontend / Backend**: Next.js 16 (App Router), TypeScript, React 19, Tailwind CSS
-- **Database**: PostgreSQL + Prisma
-- **Validation**: Zod
+- **Framework**: Next.js 16 (App Router, static export), TypeScript, React 19
+- **Styling**: Tailwind CSS
+- **Data**: static JSON in `src/data` (validated with Zod at build time)
+
+## How it works
+
+- The dictionary and the quiz are both derived from `src/data/data-batch-*.json` — the single source of truth.
+- The dictionary page filters and paginates in the browser; each term also gets its own statically-generated, SEO-friendly page at `/slang/<slug>`.
+- The quiz draws and scores questions entirely client-side.
+- There is no runtime API or database, so there is nothing to provision or secure.
 
 ## Setup
 
-1. **Install dependencies**
+```bash
+npm install
+npm run dev
+```
 
-   ```bash
-   npm install
-   ```
-
-2. **Database**
-
-   - Create a PostgreSQL database (e.g. [Neon](https://neon.tech), [Supabase](https://supabase.com), or local).
-   - Copy `.env.example` to `.env` and set `DATABASE_URL`.
-
-   ```bash
-   cp .env.example .env
-   # Edit .env and set DATABASE_URL
-   ```
-
-3. **Migrations and seed**
-
-   ```bash
-   npx prisma migrate dev
-   npx prisma db seed
-   ```
-
-4. **Run dev server**
-
-   ```bash
-   npm run dev
-   ```
-
-   Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000).
 
 ## Scripts
 
 - `npm run dev` – start dev server
-- `npm run build` – production build
-- `npm run start` – start production server
+- `npm run build` – validate data, then produce a static export in `out/`
 - `npm run lint` – run ESLint
-- `npm test` – run Jest tests (requires `DATABASE_URL` and migrated DB)
-- `npm run seed` – run Prisma seed
+- `npm test` – run Jest unit tests (pure functions, no database required)
+- `npm run validate-data` – validate the slang dataset against the Zod schema
 
 ## Routes
 
-- `/` – Home
-- `/slang` – Slang dictionary (list + detail)
+- `/` – Home (rotating featured terms)
+- `/slang` – Slang dictionary (client-side search + pagination)
+- `/slang/<slug>` – Individual term page (statically generated)
 - `/quiz` – Quiz
-- `/admin` – Admin home
-- `/admin/slang` – Manage slang terms (CRUD)
-- `/admin/quiz` – Manage quiz questions (CRUD)
 
-## Deploy (Vercel)
+## Editing content
 
-1. Push the repo to GitHub and import the project in Vercel (use the `australia-slang` folder as root if the repo root is the parent).
-2. Set `DATABASE_URL` in Vercel project settings.
-3. After first deploy, run migrations against the production DB:
+Content management is "edit JSON + commit" — Git is the CMS, with built-in history and review.
 
-   ```bash
-   npx prisma migrate deploy
+1. Edit or add entries in `src/data/data-batch-*.json`. Each entry is:
+
+   ```json
+   {
+     "phrase": "G'day",
+     "meaning": "Hello; good day",
+     "example": "G'day mate! How are you going?",
+     "quiz": {
+       "question": "What does 'G'day' mean?",
+       "explanation": "A casual Australian greeting.",
+       "choices": [
+         { "text": "Hello; good day", "isCorrect": true },
+         { "text": "Goodbye", "isCorrect": false }
+       ]
+     }
+   }
    ```
 
-4. Optionally run seed once: `npx prisma db seed`.
+2. Run `npm run validate-data` (also runs automatically before `build` and `test`). It rejects malformed entries and duplicate phrases.
+
+See `AI_DATA_GENERATION_PROMPT.md` for generating new batches.
+
+## Deploy
+
+`npm run build` writes a static site to `out/`. Deploy that directory to any static host:
+
+- **Vercel**: import the repo; it detects the static export automatically.
+- **Cloudflare Pages / Netlify**: build command `npm run build`, output directory `out`.
+- **GitHub Pages**: publish the `out/` directory.
+
+Optionally set `NEXT_PUBLIC_SITE_URL` to your canonical domain so `sitemap.xml`, `robots.txt`, and Open Graph URLs are absolute.
 
 ## Project layout
 
-- `src/app` – pages and API routes
-- `src/components` – UI components (slang, quiz, admin, layout, common)
-- `src/hooks` – data hooks (useSlangSearch, useQuiz, useSlangAdmin, useQuizAdmin)
-- `src/lib` – db, services, repositories, validators, errors
-- `prisma` – schema, migrations, seed
-- `tests` – Jest API tests
+- `src/data` – slang JSON batches + Zod schema (source of truth)
+- `src/lib` – pure data functions (`slang.ts`, `quiz.ts`, `dataset.ts`)
+- `src/app` – pages (home, dictionary, term detail, quiz) + `sitemap.ts` / `robots.ts`
+- `src/components` – UI components (slang, quiz, layout, common, home)
+- `src/hooks` – client UI state (`useSlangSearch`, `useQuiz`)
+- `scripts` – build-time data validation
+- `tests` – Jest unit tests
 
-See `coderule.md` (in repo root) for coding conventions.
+See `coderule.md` for coding conventions.
