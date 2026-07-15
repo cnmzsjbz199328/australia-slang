@@ -1,18 +1,10 @@
-"use client";
-
-import { useEffect } from "react";
 import Link from "next/link";
 import SlangShowcase from "@/components/home/SlangShowcase";
+import { getAllSlang } from "@/lib/slang";
 
 export default function HomePage() {
-  // Preload dictionary and quiz data in the background
-  useEffect(() => {
-    // Preload first page of slang dictionary
-    fetch('/api/slang?page=1').catch(() => { });
-
-    // Preload quiz data
-    fetch('/api/quiz').catch(() => { });
-  }, []);
+  // Featured terms are drawn straight from the dictionary — single source of truth.
+  const featured = getAllSlang().slice(0, 10);
 
   return (
     <div className="flex flex-col gap-8 py-8">
@@ -21,11 +13,11 @@ export default function HomePage() {
           Learn Australian Slang
         </h1>
         <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
-          From "G'day" to "Arvo", master the unique vocabulary of Down Under.
+          From &ldquo;G&rsquo;day&rdquo; to &ldquo;Arvo&rdquo;, master the unique vocabulary of Down Under.
         </p>
       </section>
 
-      <SlangShowcase />
+      <SlangShowcase terms={featured} />
 
       <section className="mt-8 flex justify-center gap-4">
         <Link

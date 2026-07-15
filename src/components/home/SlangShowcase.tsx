@@ -2,153 +2,91 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { type SlangTermBrief } from "@/hooks/useSlangSearch";
+import type { SlangTerm } from "@/lib/slang";
 
-// Featured slang terms - hardcoded for instant loading
-const FEATURED_SLANGS: SlangTermBrief[] = [
-    {
-        id: "1",
-        phrase: "G'day",
-        meaning: "Hello; good day",
-        example: "G'day mate! How are you going?"
-    },
-    {
-        id: "2",
-        phrase: "Fair dinkum",
-        meaning: "Genuine; really true",
-        example: "That's fair dinkum? I can't believe it!"
-    },
-    {
-        id: "3",
-        phrase: "She'll be right",
-        meaning: "It will be okay; no problem",
-        example: "Don't stress about it, she'll be right."
-    },
-    {
-        id: "4",
-        phrase: "Arvo",
-        meaning: "Afternoon",
-        example: "See you this arvo at the beach."
-    },
-    {
-        id: "5",
-        phrase: "Barbie",
-        meaning: "Barbecue",
-        example: "We're having a barbie on Saturday arvo."
-    },
-    {
-        id: "6",
-        phrase: "Ripper",
-        meaning: "Excellent; great",
-        example: "That was a ripper of a game last night!"
-    },
-    {
-        id: "7",
-        phrase: "Yeah nah",
-        meaning: "No (after consideration)",
-        example: "Yeah nah, I don't think that's a good idea."
-    },
-    {
-        id: "8",
-        phrase: "Crikey",
-        meaning: "Expression of surprise",
-        example: "Crikey! That was close!"
-    },
-    {
-        id: "9",
-        phrase: "Brekkie",
-        meaning: "Breakfast",
-        example: "Let's grab brekkie before work."
-    },
-    {
-        id: "10",
-        phrase: "Stoked",
-        meaning: "Very pleased; excited",
-        example: "I'm stoked we won the match!"
-    }
-];
+// Rotating hero that showcases featured slang terms. Data is passed in from the
+// server (the dictionary itself), so there is no hardcoded duplicate list.
+export default function SlangShowcase({ terms }: { terms: SlangTerm[] }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [fade, setFade] = useState(true);
 
-export default function SlangShowcase() {
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [fade, setFade] = useState(true); // Control fade state for transitions
+  useEffect(() => {
+    if (terms.length <= 1) return;
+    const interval = setInterval(() => {
+      setFade(false);
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev + 1) % terms.length);
+        setFade(true);
+      }, 500);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [terms.length]);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setFade(false); // Start fade out
-            setTimeout(() => {
-                setCurrentIndex((prev) => (prev + 1) % FEATURED_SLANGS.length);
-                setFade(true); // Start fade in
-            }, 500); // Wait for fade out to complete (match duration-500)
-        }, 5000); // 5 seconds per word
+  if (terms.length === 0) return null;
+  const term = terms[currentIndex];
 
-        return () => clearInterval(interval);
-    }, []);
+  return (
+    <div className="relative flex min-h-[300px] flex-col items-center justify-center overflow-hidden rounded-2xl bg-white/20 px-4 py-12 text-center backdrop-blur-sm transition-all dark:bg-zinc-900/10 sm:px-12">
+      <div className={`absolute -top-24 -left-24 h-64 w-64 rounded-full bg-indigo-500/10 blur-3xl transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-50"}`} />
+      <div className={`absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-blue-500/10 blur-3xl transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-50"}`} />
 
-    const term = FEATURED_SLANGS[currentIndex];
+      <div
+        className={`flex flex-col items-center transition-all duration-700 ease-in-out ${
+          fade ? "translate-y-0 opacity-100 scale-100" : "translate-y-4 opacity-0 scale-95"
+        }`}
+      >
+        <Link
+          href={`/slang/${term.slug}`}
+          className="text-5xl font-extrabold tracking-tight text-zinc-900 transition-colors hover:text-indigo-600 dark:text-zinc-50 dark:hover:text-indigo-400 sm:text-7xl"
+        >
+          {term.phrase}
+        </Link>
 
-    return (
-        <div className="relative flex min-h-[300px] flex-col items-center justify-center overflow-hidden rounded-2xl bg-white/20 px-4 py-12 text-center backdrop-blur-sm transition-all dark:bg-zinc-900/10 sm:px-12">
-            {/* Background decorative blob */}
-            <div className={`absolute -top-24 -left-24 h-64 w-64 rounded-full bg-indigo-500/10 blur-3xl transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-50'}`} />
-            <div className={`absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-blue-500/10 blur-3xl transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-50'}`} />
+        <p className="mt-6 max-w-2xl text-xl font-medium text-zinc-600 dark:text-zinc-300 sm:text-2xl">
+          {term.meaning}
+        </p>
 
-            <div
-                className={`flex flex-col items-center transition-all duration-700 ease-in-out ${fade ? "translate-y-0 opacity-100 scale-100" : "translate-y-4 opacity-0 scale-95"
-                    }`}
-            >
-                <h2 className="text-5xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-7xl">
-                    {term.phrase}
-                </h2>
+        {term.example && (
+          <div className="mt-6 border-l-2 border-indigo-500 pl-4 text-left">
+            <p className="text-lg italic text-zinc-500 dark:text-zinc-400">
+              &ldquo;{term.example}&rdquo;
+            </p>
+          </div>
+        )}
+      </div>
 
-                <p className="mt-6 max-w-2xl text-xl font-medium text-zinc-600 dark:text-zinc-300 sm:text-2xl">
-                    {term.meaning}
-                </p>
+      <div className="mt-12 flex items-center justify-center gap-2">
+        {terms.map((t, idx) => (
+          <button
+            key={t.slug}
+            onClick={() => {
+              setFade(false);
+              setTimeout(() => {
+                setCurrentIndex(idx);
+                setFade(true);
+              }, 300);
+            }}
+            className={`h-1.5 rounded-full transition-all duration-300 ${
+              idx === currentIndex
+                ? "w-8 bg-indigo-600 dark:bg-indigo-400"
+                : "w-1.5 bg-zinc-300 hover:bg-zinc-400 dark:bg-zinc-700 dark:hover:bg-zinc-600"
+            }`}
+            aria-label={`Show ${t.phrase}`}
+          />
+        ))}
+      </div>
 
-                {term.example && (
-                    <div className="mt-6 border-l-2 border-indigo-500 pl-4 text-left">
-                        <p className="text-lg italic text-zinc-500 dark:text-zinc-400">
-                            "{term.example}"
-                        </p>
-                    </div>
-                )}
-            </div>
-
-            <div className="mt-12 flex items-center justify-center gap-2">
-                {FEATURED_SLANGS.map((_, idx) => (
-                    <button
-                        key={idx}
-                        onClick={() => {
-                            setFade(false);
-                            setTimeout(() => {
-                                setCurrentIndex(idx);
-                                setFade(true);
-                            }, 300);
-                        }}
-                        className={`h-1.5 rounded-full transition-all duration-300 ${idx === currentIndex
-                            ? "w-8 bg-indigo-600 dark:bg-indigo-400"
-                            : "w-1.5 bg-zinc-300 hover:bg-zinc-400 dark:bg-zinc-700 dark:hover:bg-zinc-600"
-                            }`}
-                        aria-label={`Go to slide ${idx + 1}`}
-                    />
-                ))}
-            </div>
-
-            <div className="mt-8 transition-opacity duration-700 delay-300">
-                <Link
-                    href="/slang"
-                    className="group relative inline-flex items-center gap-2 text-sm font-medium text-zinc-500 hover:text-indigo-600 dark:text-zinc-400 dark:hover:text-indigo-400"
-                >
-                    Explore full dictionary
-                    <svg
-                        className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                </Link>
-            </div>
-        </div>
-    );
+      <div className="mt-8 transition-opacity duration-700 delay-300">
+        <Link
+          href="/slang"
+          className="group relative inline-flex items-center gap-2 text-sm font-medium text-zinc-500 hover:text-indigo-600 dark:text-zinc-400 dark:hover:text-indigo-400"
+        >
+          Explore full dictionary
+          <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </Link>
+      </div>
+    </div>
+  );
 }

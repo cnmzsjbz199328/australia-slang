@@ -1,20 +1,11 @@
-import SlangCard, { type SlangTermBrief } from "./SlangCard";
+import SlangCard from "./SlangCard";
+import type { SlangTerm } from "@/lib/slang";
 
 interface SlangListProps {
-  items: SlangTermBrief[];
-  loading?: boolean;
+  items: SlangTerm[];
 }
 
-export default function SlangList({ items, loading }: SlangListProps) {
-  if (loading) {
-    return (
-      <div className="space-y-2">
-        {[1, 2, 3].map((i) => (
-          <div key={i} className="h-20 animate-pulse rounded-lg bg-zinc-200 dark:bg-zinc-700" />
-        ))}
-      </div>
-    );
-  }
+export default function SlangList({ items }: SlangListProps) {
   if (items.length === 0) {
     return (
       <p className="rounded-lg border border-dashed border-zinc-300 p-6 text-center text-zinc-500 dark:border-zinc-600 dark:text-zinc-400">
@@ -25,7 +16,7 @@ export default function SlangList({ items, loading }: SlangListProps) {
   return (
     <ul className="space-y-2">
       {items.map((term) => (
-        <li key={term.id}>
+        <li key={term.slug}>
           <SlangCard term={term} />
         </li>
       ))}

@@ -1,64 +1,33 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useMemo, useState } from "react";
+import { searchSlang, type SlangTerm } from "@/lib/slang";
 
-export type SlangTermBrief = {
-  id: string;
-  phrase: string;
-  meaning: string;
-  example: string | null;
-};
+export type { SlangTerm } from "@/lib/slang";
 
-export type SlangTermDetail = SlangTermBrief & { createdAt: string };
-
-export function useSlangSearch(initialPage = 1, initialPageSize = 20) {
+// Client-side dictionary search over the full static dataset. Filtering is
+// synchronous and instant, so there is no loading state and no debounce needed.
+export function useSlangSearch(pageSize = 20) {
   const [query, setQuery] = useState("");
-  const [page, setPage] = useState(initialPage);
-  const [pageSize] = useState(initialPageSize);
-  const [items, setItems] = useState<SlangTermBrief[]>([]);
-  const [total, setTotal] = useState(0);
-  const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(1);
 
-  const fetchList = useCallback(async () => {
-    setLoading(true);
-    try {
-      const params = new URLSearchParams({
-        page: String(page),
-        pageSize: String(pageSize),
-      });
-      if (query.trim()) params.set("q", query.trim());
-      const res = await fetch(`/api/slang?${params}`);
-      if (!res.ok) throw new Error("Failed to fetch slang list");
-      const data = await res.json();
-      setItems(data.items ?? []);
-      setTotal(data.total ?? 0);
-    } finally {
-      setLoading(false);
-    }
-  }, [page, pageSize, query]);
+  const result = useMemo(() => searchSlang(query, page, pageSize), [query, page, pageSize]);
 
-  useEffect(() => {
-    fetchList();
-  }, [fetchList]);
+  const changeQuery = (q: string) => {
+    setQuery(q);
+    setPage(1);
+  };
 
-  // Reset to page 1 when search query changes
-  useEffect(() => {
-    if (query.trim()) {
-      setPage(1);
-    }
-  }, [query]);
-
-
+  const items: SlangTerm[] = result.items;
 
   return {
     query,
-    setQuery,
+    setQuery: changeQuery,
     page,
     setPage,
     pageSize,
     items,
-    total,
-    loading,
-    refetch: fetchList,
+    total: result.total,
+    loading: false,
   };
 }
