@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: "Learn Australian slang – an interactive dictionary and quiz.",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Australia Slang",
     description: "Learn Australian slang – an interactive dictionary and quiz.",
   },
